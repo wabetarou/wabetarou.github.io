@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jan 2021 08:00:36 GMT</lastBuildDate><item><title><![CDATA[自己分析]]></title><description><![CDATA[やりたいこと できるようになりたいこと(上からできるようになりたい順) 中国語を話す <- 親戚と話したい、母親への親孝行になると思っている 英語を話す <- 不便を解消したい 好きなこと やりたくないこと 嫌いなこと]]></description><link>null/self_analysis/</link><guid isPermaLink="false">null/self_analysis/</guid><pubDate>Sun, 17 Jan 2021 17:05:21 GMT</pubDate><content:encoded>&lt;h3&gt;やりたいこと&lt;/h3&gt;
+&lt;h3&gt;できるようになりたいこと(上からできるようになりたい順)&lt;/h3&gt;
+&lt;p&gt;中国語を話す &amp;#x3C;- 親戚と話したい、母親への親孝行になると思っている&lt;/p&gt;
+&lt;p&gt;英語を話す &amp;#x3C;- 不便を解消したい&lt;/p&gt;
+&lt;h3&gt;好きなこと&lt;/h3&gt;
+&lt;h3&gt;やりたくないこと&lt;/h3&gt;
+&lt;h3&gt;嫌いなこと&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[中国語]]></title><description><![CDATA[リンクまとめ 5つの原則と7つの実践 ５つの原則 日常から中国語を勉強していると言う意識を持つ ツールとして使う わからなくても理解しようとする 発声する わからないことを許容する…]]></description><link>null/chinese/</link><guid isPermaLink="false">null/chinese/</guid><pubDate>Sun, 17 Jan 2021 17:05:14 GMT</pubDate><content:encoded>&lt;h3&gt;リンクまとめ&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://english-bay.com/blog/TED/how_to_learn_language_in_half_a_year&quot;&gt;5つの原則と7つの実践&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;５つの原則&lt;/h4&gt;
+&lt;p&gt;日常から中国語を勉強していると言う意識を持つ&lt;/p&gt;
+&lt;p&gt;ツールとして使う&lt;/p&gt;
+&lt;p&gt;わからなくても理解しようとする&lt;/p&gt;
+&lt;p&gt;発声する&lt;/p&gt;
+&lt;p&gt;わからないことを許容する&lt;/p&gt;
+&lt;h3&gt;7つの実践&lt;/h3&gt;
+&lt;p&gt;たくさん聞く&lt;/p&gt;
+&lt;p&gt;直感的に理解する&lt;/p&gt;
+&lt;p&gt;組み合わせることを覚える&lt;/p&gt;
+&lt;p&gt;使うことを前提に基本会話を覚える&lt;/p&gt;
+&lt;p&gt;言語の母&lt;/p&gt;
+&lt;p&gt;顔を真似る&lt;/p&gt;
+&lt;p&gt;直接意味と繋げる&lt;/p&gt;</content:encoded></item><item><title><![CDATA[このサイトの設計]]></title><description><![CDATA[必要な機能 タグ作成 タグ一覧 タグによる絞り込み（フィルター） 単語による絞り込み（フィルター） 編集機能]]></description><link>null/plan/</link><guid isPermaLink="false">null/plan/</guid><pubDate>Thu, 14 Jan 2021 13:59:44 GMT</pubDate><content:encoded>&lt;h3&gt;必要な機能&lt;/h3&gt;
+&lt;p&gt;&lt;del&gt;タグ作成&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;タグ一覧&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;タグによる絞り込み（フィルター）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;単語による絞り込み（フィルター）&lt;/p&gt;
+&lt;p&gt;編集機能&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vimについて]]></title><description><![CDATA[よく使いたくなるコマンド key やること  一行コピー リンクまとめ よく使う Vim のコマンドまとめ]]></description><link>null/about_vim/</link><guid isPermaLink="false">null/about_vim/</guid><pubDate>Wed, 13 Jan 2021 21:04:06 GMT</pubDate><content:encoded>&lt;h3&gt;よく使いたくなるコマンド&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;key&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;やること&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;yy&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;一行コピー&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;リンクまとめ&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/hide/items/5bfe5b322872c61a6896&quot;&gt;よく使う Vim のコマンドまとめ&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsbyについて]]></title><description><![CDATA[リンクまとめ Gatsbyにタグ機能、カテゴリ機能をつける（基礎編） Gatsby で gatsby-theme-blog を使うときの tips Gatsby.js:URLパラメーターとブラウザーの戻る/進むボタンを使用したナビゲート]]></description><link>null/about_gatsby/</link><guid isPermaLink="false">null/about_gatsby/</guid><pubDate>Wed, 13 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;リンクまとめ&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/yoshiki-0428/items/71d80713ffc264cf40f1&quot;&gt;Gatsbyにタグ機能、カテゴリ機能をつける（基礎編）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotohayato.com/content/502/&quot;&gt;Gatsby で gatsby-theme-blog を使うときの tips&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://python5.com/q/xizbdbmb&quot;&gt;Gatsby.js:URLパラメーターとブラウザーの戻る/進むボタンを使用したナビゲート&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[markdownについて]]></title><description><![CDATA[コード記入 のように単語でも可能(その場合、色はつかない) 強調 表 Number Title Year 1 Harry Potter and the Philosopher’s Stone 2001 2 Harry Potter and the Chamber of…]]></description><link>null/about_markdown/</link><guid isPermaLink="false">null/about_markdown/</guid><pubDate>Tue, 12 Jan 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;コード記入&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; saltyDuckEgg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chinese preserved food product&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- js,cpp,markdown,etc --&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;const path&lt;/code&gt;のように単語でも可能(その場合、色はつかない)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```js
+const saltyDuckEgg = &amp;quot;chinese preserved food product&amp;quot;
+```
+
+`const path`&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;強調&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ここ見てね！！！&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;表&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Number&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Title&lt;/th&gt;
+&lt;th align=&quot;right&quot;&gt;Year&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Harry Potter and the Philosopher’s Stone&lt;/td&gt;
+&lt;td align=&quot;right&quot;&gt;2001&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;2&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Harry Potter and the Chamber of Secrets&lt;/td&gt;
+&lt;td align=&quot;right&quot;&gt;2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;3&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Harry Potter and the Prisoner of Azkaban&lt;/td&gt;
+&lt;td align=&quot;right&quot;&gt;2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a href=&quot;https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md&quot;&gt;View raw (TEST.md)&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;| Number | Title                                    | Year |
+| :----- | :--------------------------------------- | ---: |
+| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
+| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
+| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;線&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;どれでもok
+---
+- - -
+***
+* * *&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;リスト&lt;/h2&gt;
+&lt;!-- -,*どちらでもok --&gt;
+&lt;ul&gt;
+&lt;li&gt;赤&lt;/li&gt;
+&lt;li&gt;青&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;黄&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;赤&lt;/li&gt;
+&lt;li&gt;青&lt;/li&gt;
+&lt;li&gt;黄&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;幼児&lt;/li&gt;
+&lt;li&gt;子ども&lt;/li&gt;
+&lt;li&gt;大人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;文字&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;太文字&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;**太文字**
+
+__太文字__
+
+_斜体_
+
+*斜体*&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;リンク&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;../&quot;&gt;内部リンク(Home)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://luminous-hair.com&quot; title=&quot;attrがあってもなくてもいい&quot;&gt;外部リンク(ルミナスヘアー)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://luminous-hair.com&quot; title=&quot;attrだよ&quot;&gt;外部リンク(ルミナスヘアー)&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[内部リンク(Home)](../)
+
+[外部リンク(ルミナスヘアー)](http://luminous-hair.com &amp;quot;attrがあってもなくてもいい&amp;quot;)
+
+[外部リンク(ルミナスヘアー)][id]
+
+[id]: http://luminous-hair.com &amp;quot;attrだよ&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;画像&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMjv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QOoVoX//EAB0QAQEAAgIDAQAAAAAAAAAAAAERADFhgSFB0eH/2gAIAQEAAT8QSpwaGjrBSrtHyF9iY8RpUnGRBGqtOcsiDE6fM3AgiXf5M//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Image Titleをここに書く&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
+/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
+/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Chinese Salty Egg](./salty_egg.jpg &amp;quot;Image Titleをここに書く&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- リンクはどっちでも --&gt;
+&lt;h2&gt;引用&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ここにいろいろ書く&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; ここにいろいろ書く&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
