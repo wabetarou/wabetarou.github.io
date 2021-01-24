@@ -1,10 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jan 2021 08:59:28 GMT</lastBuildDate><item><title><![CDATA[スマブラ]]></title><link>null/smabro/</link><guid isPermaLink="false">null/smabro/</guid><pubDate>Tue, 19 Jan 2021 17:51:04 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[自己分析]]></title><description><![CDATA[やりたいこと できるようになりたいこと(上からできるようになりたい順) 中国語を話す <- 親戚と話したい、母親への親孝行になると思っている 英語を話す <- 不便を解消したい 好きなこと やりたくないこと 嫌いなこと]]></description><link>null/self_analysis/</link><guid isPermaLink="false">null/self_analysis/</guid><pubDate>Sun, 17 Jan 2021 17:05:21 GMT</pubDate><content:encoded>&lt;h3&gt;やりたいこと&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Jan 2021 06:09:38 GMT</lastBuildDate><item><title><![CDATA[2021/01/22]]></title><description><![CDATA[從今天打算開始寫日記。 但是我不明白的話太多了。 “就”有很多意義。 從現在開始每天學習。]]></description><link>null/diary/diary20210122/</link><guid isPermaLink="false">null/diary/diary20210122/</guid><pubDate>Fri, 22 Jan 2021 10:23:54 GMT</pubDate><content:encoded>&lt;p&gt;從今天打算開始寫日記。&lt;/p&gt;
+&lt;p&gt;但是我不明白的話太多了。&lt;/p&gt;
+&lt;p&gt;“就”有很多意義。&lt;/p&gt;
+&lt;p&gt;從現在開始每天學習。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[スマブラ]]></title><description><![CDATA[キャラを使う上で マリオ ウルフ バーストが難しいから狙っていく(空後,上スマ,下スマ) 下強からDAは入らん->つかみ,回避読み空N 下投げ入らなくなったら上？ キャラ対策]]></description><link>null/smabro/</link><guid isPermaLink="false">null/smabro/</guid><pubDate>Tue, 19 Jan 2021 17:51:04 GMT</pubDate><content:encoded>&lt;h3&gt;キャラを使う上で&lt;/h3&gt;
+&lt;h2&gt;マリオ&lt;/h2&gt;
+&lt;h2&gt;ウルフ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;バーストが難しいから狙っていく(空後,上スマ,下スマ)&lt;/li&gt;
+&lt;li&gt;下強からDAは入らん-&gt;つかみ,回避読み空N&lt;/li&gt;
+&lt;li&gt;下投げ入らなくなったら上？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;キャラ対策&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[自己分析]]></title><description><![CDATA[…]]></description><link>null/self_analysis/</link><guid isPermaLink="false">null/self_analysis/</guid><pubDate>Sun, 17 Jan 2021 17:05:21 GMT</pubDate><content:encoded>&lt;h3&gt;就活で話すこと&lt;/h3&gt;
+&lt;p&gt;登山での責任間&lt;/p&gt;
+&lt;h3&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;マイペース
+人見知り
+自分で考えるとミスが多い
+満足度を大事にする
+見知らぬものに興味がある&lt;/p&gt;
+&lt;h3&gt;性格&lt;/h3&gt;
+&lt;p&gt;人見知り（積極的に話さなそうな人には人見知りしない）
+物欲が少ない
+コスパを大事に
+マイペース
+協調性がない&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;遅刻&lt;/li&gt;
+&lt;li&gt;ドミニオン&lt;/li&gt;
+&lt;li&gt;メニュー決め
+自分だけに関すること
+賛成反対はあるが自分の考えを作り出すことが苦手
+周りが見えてない
+時間を感知していない
+自分が主体となって話すことが苦手
+答えが決まってないことを決めるのは時間がかかる
+失敗を恐れすぎ
+なぜマイペースなのか
+ウルトラレアとノーマルカードいっぱいを交換を後悔
+コスパ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;やりたいこと&lt;/h3&gt;
 &lt;h3&gt;できるようになりたいこと(上からできるようになりたい順)&lt;/h3&gt;
 &lt;p&gt;中国語を話す &amp;#x3C;- 親戚と話したい、母親への親孝行になると思っている&lt;/p&gt;
+&lt;p&gt;vimを使いこなす &amp;#x3C;- 使えたら便利そう,vimemacs戦争に参加できる&lt;/p&gt;
 &lt;p&gt;英語を話す &amp;#x3C;- 不便を解消したい&lt;/p&gt;
+&lt;p&gt;絵を描く &amp;#x3C;- 承認欲求&lt;/p&gt;
 &lt;h3&gt;好きなこと&lt;/h3&gt;
+&lt;p&gt;数学やパズルの問題を解くこと &amp;#x3C;- 解くのが得意だから&lt;/p&gt;
+&lt;p&gt;友達と協力すること &amp;#x3C;- 役に立つことが嬉しい&lt;/p&gt;
+&lt;p&gt;人の考えていることを考える（ゲーム内でだけ？） &amp;#x3C;- 人を理解するのが楽しい（人の話を聞くのも好き）&lt;/p&gt;
+&lt;p&gt;音楽を聞く &amp;#x3C;- 感傷にひたりやすい,だから積極的には聞かない&lt;/p&gt;
+&lt;h4&gt;本能的に&lt;/h4&gt;
+&lt;p&gt;二度寝 &amp;#x3C;- きもちいい&lt;/p&gt;
 &lt;h3&gt;やりたくないこと&lt;/h3&gt;
-&lt;h3&gt;嫌いなこと&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[中国語]]></title><description><![CDATA[リンクまとめ 5つの原則と7つの実践 ５つの原則 日常から中国語を勉強していると言う意識を持つ ツールとして使う わからなくても理解しようとする 発声する わからないことを許容する…]]></description><link>null/chinese/</link><guid isPermaLink="false">null/chinese/</guid><pubDate>Sun, 17 Jan 2021 17:05:14 GMT</pubDate><content:encoded>&lt;h3&gt;リンクまとめ&lt;/h3&gt;
+&lt;p&gt;初対面の人と話す（人見知り） &amp;#x3C;-　どんな人かわからないから, 嫌われたくない&lt;/p&gt;
+&lt;h3&gt;嫌いなこと&lt;/h3&gt;
+&lt;p&gt;悪口 &amp;#x3C;- 嫌な気持ちにする&lt;/p&gt;
+&lt;h3&gt;その他気になること&lt;/h3&gt;
+&lt;p&gt;人よりミスが多い(日常生活) &amp;#x3C;- 責任感がない(絶対に間違えないという意思はない)
+&amp;#x3C;—&gt; 迷惑をかけている意識が薄い&lt;/p&gt;
+&lt;h3&gt;人生の岐路&lt;/h3&gt;
+&lt;h4&gt;小学校&lt;/h4&gt;
+&lt;p&gt;クラブ選択 &amp;#x3C;- 運動そこそこできて、他との力量との差が小さそう
+中学受験 &amp;#x3C;- 志望校に俺の意思はない,&lt;/p&gt;
+&lt;h4&gt;中学校&lt;/h4&gt;
+&lt;p&gt;部活選択
+部活 &amp;#x3C;- 試合がいやだった &amp;#x3C;-緊張する,楽しくない,足を引っ張るから? &amp;#x3C;- 責任が嫌い?一人プレイの方が気楽?でも協力が好き &amp;#x3C;- 協力が好きなのは優越感に浸れるから?もう一人が優れていても素直に喜べるから優越感ではない,少なくとも二人プレイでは &amp;#x3C;- 一人プレイがいいときは競走する時、敵がいる時、でもスマブラのチーム戦は嫌いじゃない,責任が重くないから、-&gt;責任の話は登山CLの話に繋げることができる&lt;/p&gt;
+&lt;h4&gt;高校&lt;/h4&gt;
+&lt;p&gt;部活やめた
+大学受験&lt;/p&gt;
+&lt;h4&gt;大学&lt;/h4&gt;
+&lt;p&gt;研究室選択&lt;/p&gt;
+&lt;h4&gt;大学院&lt;/h4&gt;
+&lt;h3&gt;スマブラ&lt;/h3&gt;
+&lt;p&gt;技が当たった時の爽快感がクセになってる&lt;/p&gt;
+&lt;p&gt;-&gt; 中毒を抜けるためにほかにはまることを見つける &lt;/p&gt;
+&lt;p&gt;-&gt; それがゲームだと同じこと&lt;/p&gt;
+&lt;p&gt;-&gt; 「ゲームの爽快感」にかわる気持ちよさをなにに置き換えられるか&lt;/p&gt;
+&lt;p&gt;-&gt; 「筋トレの達成感」はちょっと違う&lt;/p&gt;
+&lt;p&gt;-&gt; 「走る爽快感」&lt;/p&gt;
+&lt;p&gt;-&gt; 「スマブラをしたい」と思った時「外に行って走りたい」と言う気持ちに入れ替える (微妙？？？)&lt;/p&gt;
+&lt;h3&gt;漫画&lt;/h3&gt;
+&lt;p&gt;未知のストーリーは面白い&lt;/p&gt;
+&lt;p&gt;-&gt; 「新しいものを知る喜び」に変わる何かを見つける&lt;/p&gt;
+&lt;p&gt;-&gt; 「語学の学習による発見」&lt;/p&gt;
+&lt;p&gt;-&gt;  無機質に覚えると続かない&lt;/p&gt;
+&lt;p&gt;-&gt; 自分に関連するものから覚える&lt;/p&gt;
+&lt;p&gt;-&gt; 明日方舟のキャラ名から覚える！！！ &lt;/p&gt;
+&lt;p&gt;-&gt; (解決策)「漫画を読もう」と思った時「中国語を勉強しよう」と言う気持ちに入れ替える&lt;/p&gt;
+&lt;h3&gt;youtube&lt;/h3&gt;
+&lt;p&gt;受動的に未知のストーリーを聞けるから楽に面白い&lt;/p&gt;
+&lt;p&gt;-&gt; youtubeを見るときは「なんのために見るか」をはっきり考えてから見る&lt;/p&gt;
+&lt;p&gt;-&gt; 考えるとゲーム配信やVtuberは基本的に生産性がない&lt;/p&gt;
+&lt;p&gt;-&gt; ゲームを上手くなると言う理由で見るならセーフ,Vtuberはラジオとして聞けばセーフ?つまりなにか作業しながら音だけを聞く&lt;/p&gt;
+&lt;p&gt;-&gt; (解決策) 「youtubeを見よう」と思った時「それは無駄なことだ」と即座に思う&lt;/p&gt;
+&lt;p&gt;-&gt; 「「youtube」ではなく「プレイ解説」を見よう」はあり&lt;/p&gt;
+&lt;p&gt;-&gt; Vtuberにおいては&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;作業&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;聞けるもの&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;集中が必要&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;なし&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;集中しなくてもいい&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;音楽&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;考えなくてもいい&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Vtuber&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;-&gt; 考えなくてもいい作業なんてあるだろうか&lt;/p&gt;
+&lt;p&gt;-&gt; Vtuberは見ない方がいい（もちろん新しい知見はあるが時間が溶けるデメリットが大きい）&lt;/p&gt;
+&lt;h3&gt;明日方舟&lt;/h3&gt;
+&lt;p&gt;クリアしていないステージをクリアする目的でプレイする&lt;/p&gt;
+&lt;p&gt;-&gt; 一つの目的だけを行う、例えば「このスキルの育成」のために動く&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ステージ攻略&lt;/li&gt;
+&lt;li&gt;ステージ攻略のための育成素材あつめ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&gt; スタミナが余ってるからという気持ちでは絶対にやらない&lt;/p&gt;</content:encoded></item><item><title><![CDATA[中国語]]></title><description><![CDATA[目標 7月までにに日常会話が理解可能、単語での会話が可能 2月までに日常会話が可能 どのくらいかわからないからとりあえず設定 勉強の仕方 まず何からやるかわからんからそれを決めて習慣にしたい アークナイツのことは中国語で調べる youtube…]]></description><link>null/chinese/</link><guid isPermaLink="false">null/chinese/</guid><pubDate>Sun, 17 Jan 2021 17:05:14 GMT</pubDate><content:encoded>&lt;h3&gt;目標&lt;/h3&gt;
+&lt;p&gt;7月までにに日常会話が理解可能、単語での会話が可能&lt;/p&gt;
+&lt;p&gt;2月までに日常会話が可能&lt;/p&gt;
+&lt;p&gt;どのくらいかわからないからとりあえず設定&lt;/p&gt;
+&lt;h3&gt;勉強の仕方&lt;/h3&gt;
+&lt;p&gt;まず何からやるかわからんからそれを決めて習慣にしたい&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アークナイツのことは中国語で調べる&lt;/li&gt;
+&lt;li&gt;youtubeは中国語のを見る&lt;/li&gt;
+&lt;li&gt;わからなかったことはすぐ調べる&lt;/li&gt;
+&lt;li&gt;中国語で日記を書く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;リンクまとめ&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitex-cn.com&quot;&gt;中国語検索に&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://english-bay.com/blog/TED/how_to_learn_language_in_half_a_year&quot;&gt;5つの原則と7つの実践&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;５つの原則&lt;/h4&gt;
 &lt;p&gt;日常から中国語を勉強していると言う意識を持つ&lt;/p&gt;
@@ -19,7 +154,9 @@
 &lt;p&gt;使うことを前提に基本会話を覚える&lt;/p&gt;
 &lt;p&gt;言語の母&lt;/p&gt;
 &lt;p&gt;顔を真似る&lt;/p&gt;
-&lt;p&gt;直接意味と繋げる&lt;/p&gt;</content:encoded></item><item><title><![CDATA[このサイトの設計]]></title><description><![CDATA[必要な機能 タグ作成 タグ一覧 タグによる絞り込み（フィルター） 単語による絞り込み（フィルター） 編集機能]]></description><link>null/plan/</link><guid isPermaLink="false">null/plan/</guid><pubDate>Thu, 14 Jan 2021 13:59:44 GMT</pubDate><content:encoded>&lt;h3&gt;必要な機能&lt;/h3&gt;
+&lt;p&gt;直接意味と繋げる&lt;/p&gt;</content:encoded></item><item><title><![CDATA[このサイトの設計]]></title><description><![CDATA[今ある機能 urlのところでのようにパラメーター指定するとtagの絞り込みを行える 必要な機能 タグ作成 タグ一覧 タグによる絞り込み（フィルター） 単語による絞り込み（フィルター） 編集機能]]></description><link>null/plan/</link><guid isPermaLink="false">null/plan/</guid><pubDate>Thu, 14 Jan 2021 13:59:44 GMT</pubDate><content:encoded>&lt;h3&gt;今ある機能&lt;/h3&gt;
+&lt;p&gt;urlのところで&lt;code class=&quot;language-text&quot;&gt;~~~/?tag=~~~&lt;/code&gt;のようにパラメーター指定するとtagの絞り込みを行える&lt;/p&gt;
+&lt;h3&gt;必要な機能&lt;/h3&gt;
 &lt;p&gt;&lt;del&gt;タグ作成&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;タグ一覧&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;タグによる絞り込み（フィルター）&lt;/del&gt;&lt;/p&gt;
@@ -40,10 +177,11 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3&gt;リンクまとめ&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://qiita.com/hide/items/5bfe5b322872c61a6896&quot;&gt;よく使う Vim のコマンドまとめ&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsbyについて]]></title><description><![CDATA[リンクまとめ Gatsbyにタグ機能、カテゴリ機能をつける（基礎編） Gatsby で gatsby-theme-blog を使うときの tips Gatsby.js:URLパラメーターとブラウザーの戻る/進むボタンを使用したナビゲート]]></description><link>null/about_gatsby/</link><guid isPermaLink="false">null/about_gatsby/</guid><pubDate>Wed, 13 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;リンクまとめ&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/hide/items/5bfe5b322872c61a6896&quot;&gt;よく使う Vim のコマンドまとめ&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsbyについて]]></title><description><![CDATA[リンクまとめ Gatsbyにタグ機能、カテゴリ機能をつける（基礎編） Gatsby で gatsby-theme-blog を使うときの tips Gatsby.js:URLパラメーターとブラウザーの戻る/進むボタンを使用したナビゲート GatsbyJSでgithub user…]]></description><link>null/about_gatsby/</link><guid isPermaLink="false">null/about_gatsby/</guid><pubDate>Wed, 13 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;リンクまとめ&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://qiita.com/yoshiki-0428/items/71d80713ffc264cf40f1&quot;&gt;Gatsbyにタグ機能、カテゴリ機能をつける（基礎編）&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://gotohayato.com/content/502/&quot;&gt;Gatsby で gatsby-theme-blog を使うときの tips&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://python5.com/q/xizbdbmb&quot;&gt;Gatsby.js:URLパラメーターとブラウザーの戻る/進むボタンを使用したナビゲート&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[markdownについて]]></title><description><![CDATA[コード記入 のように単語でも可能(その場合、色はつかない) 強調 表 Number Title Year 1 Harry Potter and the Philosopher’s Stone 2001 2 Harry Potter and the Chamber of…]]></description><link>null/about_markdown/</link><guid isPermaLink="false">null/about_markdown/</guid><pubDate>Tue, 12 Jan 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;コード記入&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://python5.com/q/xizbdbmb&quot;&gt;Gatsby.js:URLパラメーターとブラウザーの戻る/進むボタンを使用したナビゲート&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://makotottn.hatenablog.com/entry/2018/01/04/201752&quot;&gt;GatsbyJSでgithub user pagesにデプロイするまでの手順&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[markdownについて]]></title><description><![CDATA[コード記入 のように単語でも可能(その場合、色はつかない) 強調 表 Number Title Year 1 Harry Potter and the Philosopher’s Stone 2001 2 Harry Potter and the Chamber of…]]></description><link>null/about_markdown/</link><guid isPermaLink="false">null/about_markdown/</guid><pubDate>Tue, 12 Jan 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;コード記入&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; saltyDuckEgg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chinese preserved food product&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- js,cpp,markdown,etc --&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;const path&lt;/code&gt;のように単語でも可能(その場合、色はつかない)&lt;/p&gt;
