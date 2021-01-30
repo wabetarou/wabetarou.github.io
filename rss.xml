@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 26 Jan 2021 05:08:14 GMT</lastBuildDate><item><title><![CDATA[beautifulsoupの使い方]]></title><description><![CDATA[【Python】BeautifulSoupの使い方・基本メソッド一覧｜スクレイピング]]></description><link>null/about_beatutifulsoup/</link><guid isPermaLink="false">null/about_beatutifulsoup/</guid><pubDate>Tue, 26 Jan 2021 13:48:19 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; requests
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 Jan 2021 01:16:02 GMT</lastBuildDate><item><title><![CDATA[GCPについて]]></title><description><![CDATA[結局公式サイト見て常時起動を可能にした。 起動スクリプトの実行(公式) GoogleCloudPlatformでインスタンスの自動起動／自動停止やってみた]]></description><link>null/about_gcp/</link><guid isPermaLink="false">null/about_gcp/</guid><pubDate>Sat, 30 Jan 2021 10:07:02 GMT</pubDate><content:encoded>&lt;p&gt;結局公式サイト見て常時起動を可能にした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/compute/docs/startupscript?hl=ja&quot;&gt;起動スクリプトの実行(公式)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.wow-creators.com/news-try/googlecloudplatform%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E8%87%AA%E5%8B%95%E8%B5%B7%E5%8B%95%EF%BC%8F%E8%87%AA%E5%8B%95%E5%81%9C%E6%AD%A2%E3%82%84%E3%81%A3%E3%81%A6/&quot;&gt;GoogleCloudPlatformでインスタンスの自動起動／自動停止やってみた&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[nodeについて]]></title><description><![CDATA[【初心者向け】NPMとpackage.jsonを概念的に理解する(https://qiita.com/righteous/items/e5448cb2e7e11ab7d477)]]></description><link>null/about_node/</link><guid isPermaLink="false">null/about_node/</guid><pubDate>Fri, 29 Jan 2021 22:50:36 GMT</pubDate><content:encoded>&lt;p&gt;【初心者向け】NPMとpackage.jsonを概念的に理解する(&lt;a href=&quot;https://qiita.com/righteous/items/e5448cb2e7e11ab7d477&quot;&gt;https://qiita.com/righteous/items/e5448cb2e7e11ab7d477&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[beautifulsoupの使い方]]></title><description><![CDATA[【Python】BeautifulSoupの使い方・基本メソッド一覧｜スクレイピング]]></description><link>null/about_beatutifulsoup/</link><guid isPermaLink="false">null/about_beatutifulsoup/</guid><pubDate>Tue, 26 Jan 2021 13:48:19 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; requests
 &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; bs4 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; BeautifulSoup
 
 load_url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
@@ -32,7 +34,28 @@ soup &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; BeautifulSoup&l
 &lt;ul&gt;
 &lt;li&gt;DAによる着地狩りが強いので気をつける、着地暴れしてもいいかも&lt;/li&gt;
 &lt;li&gt;ジャンプ読まれて空前撃墜をされないように気をつける&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[自己分析]]></title><description><![CDATA[…]]></description><link>null/self_analysis/</link><guid isPermaLink="false">null/self_analysis/</guid><pubDate>Sun, 17 Jan 2021 17:05:21 GMT</pubDate><content:encoded>&lt;h3&gt;就活で話すこと&lt;/h3&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[自己分析]]></title><description><![CDATA[…]]></description><link>null/self_analysis/</link><guid isPermaLink="false">null/self_analysis/</guid><pubDate>Sun, 17 Jan 2021 17:05:21 GMT</pubDate><content:encoded>&lt;h3&gt;1番根底にあるであろうもの&lt;/h3&gt;
+&lt;p&gt;よりよい生活のために&lt;/p&gt;
+&lt;p&gt;役に立つ、欲しいとおもった機能を自分で作り生きていきたい&lt;/p&gt;
+&lt;h3&gt;過去を楽しかったことを三つ書き出し共通点を見つける&lt;/h3&gt;
+&lt;p&gt;•	サークルでの部室での飲み会
+•	友達と桜並木の下で飲み会
+•	部活後の友達とのだべり&lt;/p&gt;
+&lt;p&gt;共通点：
+•	親しい人との会話
+•	他人のことを知る喜びがある
+•	嫌悪されないという絶対的な安心感&lt;/p&gt;
+&lt;p&gt;対人不安がある&lt;/p&gt;
+&lt;h3&gt;性格診断&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.16personalities.com/ja/isfp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC&quot;&gt;ここ&lt;/a&gt;
+あるがままでいられるのが幸せ
+冒険家型の人達にとって最大の課題は、将来に向けて計画を立てることです&lt;/p&gt;
+&lt;h3&gt;いいところ&lt;/h3&gt;
+&lt;p&gt;動じない
+メンタルが強い
+心が広い&lt;/p&gt;
+&lt;h3&gt;悪いところ&lt;/h3&gt;
+&lt;h3&gt;就活で話すこと&lt;/h3&gt;
 &lt;p&gt;登山での責任間&lt;/p&gt;
 &lt;h3&gt;まとめ&lt;/h3&gt;
 &lt;p&gt;周りの状況をみないことが多い
@@ -153,7 +176,8 @@ soup &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; BeautifulSoup&l
 &lt;p&gt;育成のための周回は必要なものだけを行く&lt;/p&gt;
 &lt;h3&gt;Primeビデオ&lt;/h3&gt;
 &lt;p&gt;アニメが面白い&lt;/p&gt;
-&lt;p&gt;-&gt; 際限がなくなる場合があるので「1日二話まで」にする&lt;/p&gt;</content:encoded></item><item><title><![CDATA[中国語]]></title><description><![CDATA[目標 7月までにに日常会話が理解可能、単語での会話が可能 2月までに日常会話が可能 どのくらいかわからないからとりあえず設定 勉強の仕方 まず何からやるかわからんからそれを決めて習慣にしたい アークナイツのことは中国語で調べる youtube…]]></description><link>null/chinese/</link><guid isPermaLink="false">null/chinese/</guid><pubDate>Sun, 17 Jan 2021 17:05:14 GMT</pubDate><content:encoded>&lt;h3&gt;目標&lt;/h3&gt;
+&lt;p&gt;~~ -&gt; 際限がなくなる場合があるので「1日二話まで」にする ~~
+-&gt; 「筋トレしてからお風呂入るまでの間にみれる」にする&lt;/p&gt;</content:encoded></item><item><title><![CDATA[中国語]]></title><description><![CDATA[目標 7月までにに日常会話が理解可能、単語での会話が可能 2月までに日常会話が可能 どのくらいかわからないからとりあえず設定 勉強の仕方 まず何からやるかわからんからそれを決めて習慣にしたい アークナイツのことは中国語で調べる youtube…]]></description><link>null/chinese/</link><guid isPermaLink="false">null/chinese/</guid><pubDate>Sun, 17 Jan 2021 17:05:14 GMT</pubDate><content:encoded>&lt;h3&gt;目標&lt;/h3&gt;
 &lt;p&gt;7月までにに日常会話が理解可能、単語での会話が可能&lt;/p&gt;
 &lt;p&gt;2月までに日常会話が可能&lt;/p&gt;
 &lt;p&gt;どのくらいかわからないからとりあえず設定&lt;/p&gt;
