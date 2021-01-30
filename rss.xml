@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 Jan 2021 01:16:02 GMT</lastBuildDate><item><title><![CDATA[GCPについて]]></title><description><![CDATA[結局公式サイト見て常時起動を可能にした。 起動スクリプトの実行(公式) GoogleCloudPlatformでインスタンスの自動起動／自動停止やってみた]]></description><link>null/about_gcp/</link><guid isPermaLink="false">null/about_gcp/</guid><pubDate>Sat, 30 Jan 2021 10:07:02 GMT</pubDate><content:encoded>&lt;p&gt;結局公式サイト見て常時起動を可能にした。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 Jan 2021 09:13:30 GMT</lastBuildDate><item><title><![CDATA[jsについて]]></title><description><![CDATA[メモ： sliceやconcatを引数なしでおこなえば配列のディープコピー（値渡し）ができる！！！ JavaScriptで配列のコピー（値渡し）]]></description><link>null/about_js/</link><guid isPermaLink="false">null/about_js/</guid><pubDate>Sat, 30 Jan 2021 18:09:30 GMT</pubDate><content:encoded>&lt;p&gt;メモ：&lt;/p&gt;
+&lt;p&gt;sliceやconcatを引数なしでおこなえば配列のディープコピー（値渡し）ができる！！！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/takahiro_itazuri/items/882d019f1d8215d1cb67&quot;&gt;JavaScriptで配列のコピー（値渡し）&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GCPについて]]></title><description><![CDATA[結局公式サイト見て常時起動を可能にした。 起動スクリプトの実行(公式) GoogleCloudPlatformでインスタンスの自動起動／自動停止やってみた]]></description><link>null/about_gcp/</link><guid isPermaLink="false">null/about_gcp/</guid><pubDate>Sat, 30 Jan 2021 10:07:02 GMT</pubDate><content:encoded>&lt;p&gt;結局公式サイト見て常時起動を可能にした。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/compute/docs/startupscript?hl=ja&quot;&gt;起動スクリプトの実行(公式)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.wow-creators.com/news-try/googlecloudplatform%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E8%87%AA%E5%8B%95%E8%B5%B7%E5%8B%95%EF%BC%8F%E8%87%AA%E5%8B%95%E5%81%9C%E6%AD%A2%E3%82%84%E3%81%A3%E3%81%A6/&quot;&gt;GoogleCloudPlatformでインスタンスの自動起動／自動停止やってみた&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[nodeについて]]></title><description><![CDATA[【初心者向け】NPMとpackage.jsonを概念的に理解する(https://qiita.com/righteous/items/e5448cb2e7e11ab7d477)]]></description><link>null/about_node/</link><guid isPermaLink="false">null/about_node/</guid><pubDate>Fri, 29 Jan 2021 22:50:36 GMT</pubDate><content:encoded>&lt;p&gt;【初心者向け】NPMとpackage.jsonを概念的に理解する(&lt;a href=&quot;https://qiita.com/righteous/items/e5448cb2e7e11ab7d477&quot;&gt;https://qiita.com/righteous/items/e5448cb2e7e11ab7d477&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[beautifulsoupの使い方]]></title><description><![CDATA[【Python】BeautifulSoupの使い方・基本メソッド一覧｜スクレイピング]]></description><link>null/about_beatutifulsoup/</link><guid isPermaLink="false">null/about_beatutifulsoup/</guid><pubDate>Tue, 26 Jan 2021 13:48:19 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; requests
 &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; bs4 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; BeautifulSoup
@@ -21,13 +23,13 @@ soup &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; BeautifulSoup&l
 &lt;ul&gt;
 &lt;li&gt;バーストが難しいから狙っていく(空後,スマッシュ)&lt;/li&gt;
 &lt;li&gt;下強転倒から転がり読みDA&lt;/li&gt;
-&lt;li&gt;0%は上投げ&lt;/li&gt;
+&lt;li&gt;低パー過ぎたら上投げ&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;ゲッコウガ&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;待ちに徹する！！！&lt;/li&gt;
 &lt;li&gt;立ち回り空後多め、空前は撃墜にとっておく&lt;/li&gt;
-&lt;li&gt;撃墜が見えてたらしっかり狙う、ただし一辺倒にならないように&lt;/li&gt;
+&lt;li&gt;撃墜が見えてたらしっかり下強狙う、ただし一辺倒にならないように&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;キャラ対策&lt;/h3&gt;
 &lt;h4&gt;ゲッコウガ&lt;/h4&gt;
