@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 Jan 2021 12:26:19 GMT</lastBuildDate><item><title><![CDATA[jsについて]]></title><description><![CDATA[メモ： sliceやconcatを引数なしでおこなえば配列のディープコピー（値渡し）ができる！！！ JavaScriptで配列のコピー（値渡し）]]></description><link>null/about_js/</link><guid isPermaLink="false">null/about_js/</guid><pubDate>Sat, 30 Jan 2021 18:09:30 GMT</pubDate><content:encoded>&lt;p&gt;メモ：&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[こんにゃくの日記]]></title><description><![CDATA[筆者こんにゃくの日々をつらつらつらねます]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 Jan 2021 16:21:53 GMT</lastBuildDate><item><title><![CDATA[jsについて]]></title><description><![CDATA[メモ： sliceやconcatを引数なしでおこなえば配列のディープコピー（値渡し）ができる！！！ JavaScriptで配列のコピー（値渡し）]]></description><link>null/about_js/</link><guid isPermaLink="false">null/about_js/</guid><pubDate>Sat, 30 Jan 2021 18:09:30 GMT</pubDate><content:encoded>&lt;p&gt;メモ：&lt;/p&gt;
 &lt;p&gt;sliceやconcatを引数なしでおこなえば配列のディープコピー（値渡し）ができる！！！&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://qiita.com/takahiro_itazuri/items/882d019f1d8215d1cb67&quot;&gt;JavaScriptで配列のコピー（値渡し）&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GCPについて]]></title><description><![CDATA[結局公式サイト見て常時起動を可能にした。 起動スクリプトの実行(公式) GoogleCloudPlatformでインスタンスの自動起動／自動停止やってみた]]></description><link>null/about_gcp/</link><guid isPermaLink="false">null/about_gcp/</guid><pubDate>Sat, 30 Jan 2021 10:07:02 GMT</pubDate><content:encoded>&lt;p&gt;結局公式サイト見て常時起動を可能にした。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/compute/docs/startupscript?hl=ja&quot;&gt;起動スクリプトの実行(公式)&lt;/a&gt;&lt;/p&gt;
@@ -207,7 +207,11 @@ soup &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; BeautifulSoup&l
 &lt;p&gt;使うことを前提に基本会話を覚える&lt;/p&gt;
 &lt;p&gt;言語の母&lt;/p&gt;
 &lt;p&gt;顔を真似る&lt;/p&gt;
-&lt;p&gt;直接意味と繋げる&lt;/p&gt;</content:encoded></item><item><title><![CDATA[このサイトの設計]]></title><description><![CDATA[今ある機能 urlのところでのようにパラメーター指定するとtagの絞り込みを行える 必要な機能 タグ作成 タグ一覧 タグによる絞り込み（フィルター） 単語による絞り込み（フィルター） 編集機能]]></description><link>null/plan/</link><guid isPermaLink="false">null/plan/</guid><pubDate>Thu, 14 Jan 2021 13:59:44 GMT</pubDate><content:encoded>&lt;h3&gt;今ある機能&lt;/h3&gt;
+&lt;p&gt;直接意味と繋げる&lt;/p&gt;</content:encoded></item><item><title><![CDATA[このサイトの設計]]></title><description><![CDATA[やりたいこと 日記とか思ったこととかをかける別のページをつくりたい 日記のリンクから一覧が見れる 日記、思ったこと、メモの三種類 今ある機能 urlのところでのようにパラメーター指定するとtag…]]></description><link>null/plan/</link><guid isPermaLink="false">null/plan/</guid><pubDate>Thu, 14 Jan 2021 13:59:44 GMT</pubDate><content:encoded>&lt;h3&gt;やりたいこと&lt;/h3&gt;
+&lt;p&gt;日記とか思ったこととかをかける別のページをつくりたい&lt;/p&gt;
+&lt;p&gt;日記のリンクから一覧が見れる&lt;/p&gt;
+&lt;p&gt;日記、思ったこと、メモの三種類&lt;/p&gt;
+&lt;h3&gt;今ある機能&lt;/h3&gt;
 &lt;p&gt;urlのところで&lt;code class=&quot;language-text&quot;&gt;~~~/?tag=~~~&lt;/code&gt;のようにパラメーター指定するとtagの絞り込みを行える&lt;/p&gt;
 &lt;h3&gt;必要な機能&lt;/h3&gt;
 &lt;p&gt;&lt;del&gt;タグ作成&lt;/del&gt;&lt;/p&gt;
