@@ -1,7 +1,7 @@
 ---
 title: git備忘録
-date: 2021-01-31T13:52
-updated: 2021-01-31T13:54
+created: 2021-01-31T13:52
+updated: 2021-01-31T14:58
 description: 忘れがちなgitのコマンドを多数収録ｖ
 ---
 
