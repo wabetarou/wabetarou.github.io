@@ -18,8 +18,12 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
-            social {
-              twitter
+            author {
+              name
+              summary
+              social {
+                github
+              }
             }
           }
         }

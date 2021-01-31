@@ -82,19 +82,20 @@ exports.createSchemaCustomization = ({ actions }) => {
   // This way the "MarkdownRemark" queries will return `null` even when no
   // blog posts are stored inside "content/blog" instead of returning an error
   createTypes(`
-    type SiteSiteMetadata {
-      author: Author
+    type SiteMetadata {
+      title: String
+      author: [Author]
       siteUrl: String
-      social: Social
     }
 
     type Author {
       name: String
       summary: String
+      social: Social
     }
 
     type Social {
-      twitter: String
+      github: String
     }
 
     type MarkdownRemark implements Node {
@@ -103,9 +104,10 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
 
     type Frontmatter {
+      created: Date @dateformat
+      updated: Date @dateformat
       title: String
       description: String
-      date: Date @dateformat
     }
 
     type Fields {

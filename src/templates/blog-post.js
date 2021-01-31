@@ -16,6 +16,7 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <hr/>
       <article
         className="blog-post"
         itemScope
@@ -31,7 +32,7 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          <Bio />
+          authorをかく
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -75,6 +76,13 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author {
+          name
+          summary
+          social {
+            github
+          }
+        }
       }
     }
     markdownRemark(id: { eq: $id }) {
@@ -83,7 +91,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "Y-M-D ddd")
+        updated(formatString: "Y-M-D ddd")
         description
       }
     }
@@ -100,12 +109,7 @@ export const pageQuery = graphql`
         slug
       }
       frontmatter {
-        created(formatString: "Y-M-D ddd")
-        updated(formatString: "Y-M-D ddd")
         title
-        description
-        author
-        tags
       }
     }
   }

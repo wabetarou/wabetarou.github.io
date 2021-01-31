@@ -33,6 +33,7 @@ const BlogIndex = ({ data, location }) => {
 
           return (
             <li key={post.fields.slug}>
+              <hr/>
               <article
                 className="post-list-item"
                 itemScope
@@ -70,6 +71,13 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author {
+          name
+          summary
+          social {
+            github
+          }
+        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -79,12 +87,10 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          created(formatString: "Y-M-D ddd")
+          date(formatString: "Y-M-D ddd")
           updated(formatString: "Y-M-D ddd")
           title
           description
-          author
-          tags
         }
       }
     }
