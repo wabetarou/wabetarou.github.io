@@ -3,15 +3,15 @@ module.exports = {
     title: `NARAZUKE`,
     author: [
       {
-        name: `nozzlex3`,
-        summary: `who lives in gummaken`,
+        name: `nozzle`,
+        summary: `who lives in gummaken.`,
         social: {
           github: 'nozzlex3'
         }
       },
       {
-        name: `wabetarou`,
-        summary: `who eats konnyaku`,
+        name: `konnyaku`,
+        summary: `who is known as Siege Sukosuko Samurai.`,
         social: {
           github: 'wabetarou'
         }
