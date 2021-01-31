@@ -16,7 +16,7 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <hr/>
+      <hr />
       <article
         className="blog-post"
         itemScope
@@ -24,7 +24,7 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{post.frontmatter.created}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "Y-M-D ddd")
+        created(formatString: "Y-M-D ddd")
         updated(formatString: "Y-M-D ddd")
         description
       }
