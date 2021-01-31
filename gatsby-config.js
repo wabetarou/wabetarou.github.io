@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ならづけ`,
+    title: `NARAZUKE`,
     author: [
       {
         name: `nozzlex3`,
@@ -18,7 +18,7 @@ module.exports = {
       }
     ],
     description: `narazuke saiko-`,
-    // siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://narazuke.github.io`,
   },
   plugins: [
     {
