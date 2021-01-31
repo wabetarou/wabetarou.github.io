@@ -100,7 +100,12 @@ export const pageQuery = graphql`
         slug
       }
       frontmatter {
+        created(formatString: "Y-M-D ddd")
+        updated(formatString: "Y-M-D ddd")
         title
+        description
+        author
+        tags
       }
     }
   }

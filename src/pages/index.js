@@ -79,9 +79,12 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          created(formatString: "Y-M-D ddd")
+          updated(formatString: "Y-M-D ddd")
           title
           description
+          author
+          tags
         }
       }
     }
