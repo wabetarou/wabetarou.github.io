@@ -1,7 +1,7 @@
 ---
 title: NARADUKE新機能候補
 created: 2021-01-31T22:54
-updated: 2021-02-01 19:53
+updated: 2021-02-01 21:04
 description: NARADUKEの新機能候補です
 author: nozzle
 ---
@@ -9,7 +9,7 @@ author: nozzle
 
 ## 必要そう
 ### 簡単そう
-* 筆者名
+* ~~筆者名~~ (2/1 完了)
 * タグ
 * カテゴリ --- 日記、哲学、メモ
 * frontmatterの属性詳細
