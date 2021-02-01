@@ -32,7 +32,7 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          authorをかく
+          by {post.frontmatter.author}
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -94,6 +94,8 @@ export const pageQuery = graphql`
         created(formatString: "Y-M-D ddd")
         updated(formatString: "Y-M-D ddd")
         description
+        tags
+        author
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
