@@ -1,7 +1,7 @@
 ---
 title: NARADUKE新機能候補
 created: 2021-01-31T22:54
-updated: 2021-2-1 19:04
+updated: 2021-02-01 19:53
 description: NARADUKEの新機能候補です
 author: nozzle
 ---
