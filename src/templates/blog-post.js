@@ -94,7 +94,7 @@ export const pageQuery = graphql`
         created(formatString: "Y-M-D ddd")
         updated(formatString: "Y-M-D ddd")
         description
-        tags
+        tag
         author
       }
     }

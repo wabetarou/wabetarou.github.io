@@ -109,7 +109,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       author: String
-      tags: [String]
+      tag: [String]
     }
 
     type Fields {

@@ -1,10 +1,10 @@
 ---
 title: アークナイツ
 created: 2021-02-02 22:43
-updated: 2021-02-03 00:27
+updated: 2021-02-03 00:35
 description: 公開求人のタグ組み合わせ
 author: konnyaku
-tags: [game,arknights,memo]
+tag: [game,arknights,memo]
 ---
 
 ## 公開求人
