@@ -1,20 +1,20 @@
 ---
 title: NARADUKE新機能候補
 created: 2021-01-31T22:54
-updated: 2021-02-01 21:04
+updated: 2021-02-03 12:50
 description: NARADUKEの新機能候補です
-author: nozzle
+author: nozzle, konnyaku
 ---
 # 将来的に加えたい機能
 
 ## 必要そう
 ### 簡単そう
-* ~~筆者名~~ (2/1 完了)
+* ~~筆者名~~ (2/1 k完了)
 * タグ
 * カテゴリ --- 日記、哲学、メモ
-* frontmatterの属性詳細
+* frontmatterの属性詳細 (2/2 k完了)
 ### 難しそう
-* ~~画像のcomponent (imageタグの作成)~~ (2/1 完了)
+* ~~画像のcomponent (imageタグの作成)~~ (2/1 k完了)
 * ページ機能
 * 記事サムネイル
 * 最新記事に🆕ってつける
