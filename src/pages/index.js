@@ -91,6 +91,7 @@ export const pageQuery = graphql`
           updated(formatString: "Y-M-D ddd")
           title
           description
+          tag
         }
       }
     }
