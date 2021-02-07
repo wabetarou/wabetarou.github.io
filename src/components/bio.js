@@ -30,13 +30,13 @@ const Bio = () => {
   const authors = data.site.siteMetadata?.author
 
   return (
-    <div className="bio" style={{margin: 'auto'}}>
+    <div className="bio" style={{ margin: "auto" }}>
       {authors.map(author => {
         const name = author.name
-        const src_path = "profile-pic-"+name+".jpg"
-        return(
-          <div style={{width: '50%'}}>
-            <div style={{width:'100px'}}>
+        const src_path = "profile-pic-" + name + ".jpg"
+        return (
+          <div style={{ width: "50%" }}>
+            <div style={{ width: "100px" }}>
               <Image
                 filename={src_path}
                 style={{
@@ -48,7 +48,7 @@ const Bio = () => {
               <p>
                 <strong>{author.name}</strong> {author?.summary || null}
                 {` `}
-                <br/>
+                <br />
                 <a href={`https://github.com/${author?.social?.github || ``}`}>
                   Github
                 </a>
@@ -58,7 +58,6 @@ const Bio = () => {
         )
       })}
     </div>
-    
   )
 }
 
