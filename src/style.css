@@ -336,3 +336,21 @@ a:focus {
     list-style-position: inside;
   }
 }
+.tag-list {
+  display: flex;
+  height: var(--fontSize-1);
+}
+.tag {
+  display: flex;
+  vertical-align: middle;
+  color: #333333;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 0 5px;
+  /* font-size:var(--f6); */
+  margin-right: 5px;
+}
+svg {
+  max-height: 100%;
+  width: auto;
+}
