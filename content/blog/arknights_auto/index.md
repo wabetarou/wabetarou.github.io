@@ -1,7 +1,7 @@
 ---
 title: アークナイツ周回の自動化(Mac,C++)
 created: 2021-02-04 19:29
-updated: 2021-02-08 11:15
+updated: 2021-02-08 20:00
 description: C++,openCVを使って自動化
 author: konnyaku
 tag: [game,arknights,computer,memo]
@@ -137,7 +137,7 @@ CoreGraphics関連がわからなすぎるのでまとめる。
 |`CGImageGetColorSpace(CGImageRef)`|`CGColorSpaceRef`|わからん|
 |`CGBitmapContextCreate(...)`|`CGContextRef`||
 
-cvMatGrayFromCGImage()という関数でうまく書き込めず真っ黒になる。。。
+CoreGraphicsの画像をopencvのMatに変換する関数をつくったがでうまく書き込めず真っ黒になる。。。
 
 <br>
 <br>
@@ -156,6 +156,7 @@ CoreGraphicsを使う方法を諦めた。諦めたらすっきりした。
 2. 用意した画像が存在するか調べる
 3. 存在する場合、位置を調べる
 4. その位置をクリックする
+
 ```cpp
 #include <ApplicationServices/ApplicationServices.h>
 #include <opencv2/opencv.hpp>
@@ -198,7 +199,6 @@ int main(void) {
     int flag_end = 0;
     int flag_click = 0;
     while (true) {
-        // 自動指揮ならばステージ選択
         system("screencapture -x ./image/screenshot.png");
         screen = cv::imread("./image/screenshot.png",0);
 
@@ -210,6 +210,7 @@ int main(void) {
             location.x = maxLoc.x;
             location.y = maxLoc.y;
             click(location);
+            std::cout << "clicked stage_desicde\n";
             flag_click++;
         }
         if (!flag_click) {
@@ -219,6 +220,7 @@ int main(void) {
                 location.x = maxLoc.x;
                 location.y = maxLoc.y;
                 click(location);
+                std::cout << "clicked stage_start\n";
                 flag_click++;
                 sleep(90);
             } 
@@ -230,6 +232,7 @@ int main(void) {
                 location.x = maxLoc.x;
                 location.y = maxLoc.y;
                 click(location);
+                std::cout << "clicked result\n";
                 flag_click++;
             } 
         }
@@ -237,6 +240,7 @@ int main(void) {
             flag_end++;
             if (flag_end > 30) break;
         } else {
+            flag_click = 0;
             flag_end = 0;
         }
         sleep(5);
@@ -248,10 +252,7 @@ int main(void) {
         clock_t p_end = clock();
         std::cout << "(" << (double)(p_end - p_start) / CLOCKS_PER_SEC << ") 秒経過\n";
     }
-    
-
 }
-
 void click(CGPoint location) {
     CGEventRef event = CGEventCreateMouseEvent(NULL, kCGEventLeftMouseDown, location, kCGMouseButtonLeft);  
     CGEventSetIntegerValueField(event, kCGMouseEventClickState, 1);  
@@ -269,4 +270,4 @@ void click(CGPoint location) {
 
 一回のループに対して今回のコードでは約0.15sであるのに対して、以前のコードでは約1.4sであるためほぼ10倍早くなっている。
 
-現在は一つのステージだけを周回するプログラムだが、改良することで基地や任務なども自動化できそうのでいつかやる。
+現在は一つのステージだけを周回するプログラムだが、改良することで基地や任務なども自動化できそうのでいつかやるかもしれない。
