@@ -8,7 +8,6 @@ import PostColumn from "../components/post-column"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
   const { edges } = data.allMarkdownRemark
 
   if (edges.length === 0) {
@@ -29,11 +28,10 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
-      <hr/>
+      <hr />
       <Link to="/tags">All tags</Link>
       <ol style={{ listStyle: `none` }}>
         {edges.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
           return <PostColumn node={node} />
         })}
       </ol>
@@ -72,6 +70,7 @@ export const pageQuery = graphql`
             description
             tag
             created(formatString: "Y-M-D ddd")
+            author
           }
         }
       }
