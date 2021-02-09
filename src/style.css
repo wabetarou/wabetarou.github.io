@@ -360,3 +360,6 @@ svg {
   max-height: 100%;
   width: auto;
 }
+img {
+  padding: 10px;
+}
