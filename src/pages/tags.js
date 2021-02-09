@@ -21,8 +21,12 @@ const TagsPage = ({
     <div>
       <h1>Tags</h1>
       <ul>
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
+        {group.sort(function(a,b){
+          if (a.totalCount > b.totalCount) return -1
+          if (a.totalCount < b.totalCount) return 1
+          return 0
+        }).map(tag => (
+          <li key={tag.totalCount}>
             <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
               {tag.fieldValue} ({tag.totalCount})
             </Link>

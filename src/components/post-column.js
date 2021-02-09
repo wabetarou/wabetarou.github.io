@@ -5,7 +5,6 @@ const PostColumnTemplate = ({ node }) => {
   //   const { node } = data.allMarkdownRemark.edges
   return (
     <li key={node.fields.slug}>
-      <hr />
       <article
         className="post-list-item"
         itemScope
@@ -39,6 +38,7 @@ const PostColumnTemplate = ({ node }) => {
           />
         </section>
       </article>
+      <hr />
     </li>
   )
 }
