@@ -1,7 +1,7 @@
 ---
 title: アークナイツの公開求人
 created: 2021-02-02 22:43
-updated: 2021-02-03 12:47
+updated: 2021-02-10 00:48
 description: 公開求人のタグ組み合わせ
 author: konnyaku
 tag: [game,arknights,memo]
@@ -33,7 +33,9 @@ tag: [game,arknights,memo]
 |__特殊タイプ__|減速<br>火力<br>生存|
 |__支援__| [先鋒系](#note_vanguard)<br>[医療系](#note_medic)<br>遠距離
 |__弱化__|補助タイプ<br>範囲攻撃|プラマニクス<br>メテオリーテ
-|__強制移動__|減速<br>火力<br>[重装系](#note_guard)
+|__強制移動__|減速|エフイーター
+||火力|クリフハート
+||[重装系](#note_guard)|クロワッサン
 |__生存__|[重装系](#note_guard)|
 |__火力__|[重装系](#note_guard)|リスカム<br>ヴァルカン
 ||補助タイプ|イースチナ
