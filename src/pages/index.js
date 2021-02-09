@@ -29,6 +29,8 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
+      <hr/>
+      <Link to="/tags">All tags</Link>
       <ol style={{ listStyle: `none` }}>
         {edges.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
