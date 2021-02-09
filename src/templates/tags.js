@@ -1,48 +1,61 @@
 import React from "react"
+import PropTypes from "prop-types"
+
+// Components
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import PostColumn from "../components/post-column"
 
-const BlogIndex = ({ data, location }) => {
+const Tags = ({ pageContext, data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
-  const { edges } = data.allMarkdownRemark
-
-  if (edges.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
+  const { tag } = pageContext
+  const { edges, totalCount } = data.allMarkdownRemark
+  const tagHeader = `${totalCount} post${
+    totalCount === 1 ? "" : "s"
+  } tagged with "${tag}"`
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Bio />
+      <h1>{tagHeader}</h1>
       <ol style={{ listStyle: `none` }}>
         {edges.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return <PostColumn node={node} />
         })}
       </ol>
+      <Link to="/tags">All tags</Link>
     </Layout>
   )
 }
 
-export default BlogIndex
+Tags.propTypes = {
+  pageContext: PropTypes.shape({
+    tag: PropTypes.string.isRequired,
+  }),
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      totalCount: PropTypes.number.isRequired,
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            frontmatter: PropTypes.shape({
+              title: PropTypes.string.isRequired,
+            }),
+            fields: PropTypes.shape({
+              slug: PropTypes.string.isRequired,
+            }),
+          }),
+        }).isRequired
+      ),
+    }),
+  }),
+}
+
+export default Tags
 
 export const pageQuery = graphql`
-  query {
+  query($tag: String) {
     site {
       siteMetadata {
         title
@@ -58,6 +71,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___created], order: DESC }
+      filter: { frontmatter: { tag: { in: [$tag] } } }
     ) {
       totalCount
       edges {
@@ -68,8 +82,8 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
-            tag
             created(formatString: "Y-M-D ddd")
+            tag
           }
         }
       }
