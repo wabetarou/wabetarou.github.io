@@ -4,17 +4,10 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Gitalk from "gatsby-plugin-gitalk"
-import "@suziwen/gitalk/dist/gitalk.css"
-
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
-  let gitalkConfig = {
-    id: post.slug || post.id,
-    title: post.title,
-  }
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -36,7 +29,6 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <footer>by {post.frontmatter.author}</footer>
-        <Gitalk options={gitalkConfig} />
       </article>
       <nav className="blog-post-nav">
         <ul

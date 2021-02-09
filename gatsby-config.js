@@ -22,18 +22,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-gitalk`,
-      options: {
-        config: {
-          clientID: '837629045eb9da51e9f1',
-          clientSecret: '215cd35227ec39e8654be1f2d6a3d2bc9665a5eb',
-          repo: 'narazuke.github.io',
-          owner: 'narazuke',
-          admin: ['wabetarou','nozzlex3'],
-        }
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
