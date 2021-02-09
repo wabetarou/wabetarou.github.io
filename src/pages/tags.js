@@ -3,12 +3,14 @@ import PropTypes from "prop-types"
 
 // Utilities
 import kebabCase from "lodash/kebabCase"
+import Layout from "../components/layout"
 
 // Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 
 const TagsPage = ({
+  location,
   data: {
     allMarkdownRemark: { group },
     site: {
@@ -16,25 +18,27 @@ const TagsPage = ({
     },
   },
 }) => (
-  <div>
+  <Layout location={location} title={title}>
     <Helmet title={title} />
     <div>
       <h1>Tags</h1>
       <ul>
-        {group.sort(function(a,b){
-          if (a.totalCount > b.totalCount) return -1
-          if (a.totalCount < b.totalCount) return 1
-          return 0
-        }).map(tag => (
-          <li key={tag.totalCount}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
+        {group
+          .sort(function (a, b) {
+            if (a.totalCount > b.totalCount) return -1
+            if (a.totalCount < b.totalCount) return 1
+            return 0
+          })
+          .map(tag => (
+            <li key={tag.totalCount}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
       </ul>
     </div>
-  </div>
+  </Layout>
 )
 
 TagsPage.propTypes = {
@@ -62,6 +66,13 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author {
+          name
+          summary
+          social {
+            github
+          }
+        }
       }
     }
     allMarkdownRemark(limit: 2000) {
