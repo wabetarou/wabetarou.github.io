@@ -22,6 +22,17 @@ const BlogPostTemplate = ({ data, location }) => {
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.created}</p>
+          <div className="tag-list">
+            {post.frontmatter.tag?.map(tag => {
+              return (
+                <div className="tag">
+                  <small>
+                    <Link to={`/tags/${tag}/`}>{tag}</Link>
+                  </small>
+                </div>
+              )
+            })}
+          </div>
         </header>
         <hr />
         <section

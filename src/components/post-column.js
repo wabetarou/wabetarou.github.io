@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Image from "./image"
 
 const PostColumnTemplate = ({ node }) => {
   //   const { node } = data.allMarkdownRemark.edges
@@ -37,6 +38,18 @@ const PostColumnTemplate = ({ node }) => {
             itemProp="description"
           />
         </section>
+        <small className="profile-mini">
+          <figure>
+            <Image
+              filename={"profile-pic-" + node.frontmatter.author + ".jpg"}
+              style={{
+                borderRadius: `50%`,
+                height: `100%`,
+              }}
+            />
+          </figure>
+          {node.frontmatter.author}
+        </small>
       </article>
       <hr />
     </li>

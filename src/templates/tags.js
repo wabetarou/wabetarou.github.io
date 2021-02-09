@@ -20,7 +20,6 @@ const Tags = ({ pageContext, data, location }) => {
       <h1>{tagHeader}</h1>
       <ol style={{ listStyle: `none` }}>
         {edges.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
           return <PostColumn node={node} />
         })}
       </ol>
@@ -84,6 +83,7 @@ export const pageQuery = graphql`
             description
             created(formatString: "Y-M-D ddd")
             tag
+            author
           }
         }
       }

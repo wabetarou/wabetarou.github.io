@@ -27,12 +27,15 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  /* --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
-    Times, serif;
-  --font-body: var(--fontFamily-serif);
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  --fontFamily-sans: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI,
+    Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial,
+    メイリオ, Meiryo, sans-serif;
+  /* --fontFamily-serif: "メイリオ","Merriweather", "Georgia", Cambria, "Times New Roman",
+    Times, serif; */
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
@@ -55,11 +58,13 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
+  /* --color-primary: #02243a; */
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --color-link: #02243a;
 }
 
 /* HTML elements */
@@ -118,7 +123,7 @@ h6 {
 }
 
 h1 {
-  font-weight: var(--fontWeight-black);
+  font-weight: var(--fontWeight-bold);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
 }
@@ -243,10 +248,16 @@ a {
   color: var(--color-primary);
   text-decoration: none;
 }
-
+a:hover {
+  /* color: var(--color-link); */
+  opacity: 0.7;
+}
 a:hover,
 a:focus {
   text-decoration: none;
+}
+small a {
+  color: var(--color-text-light);
 }
 
 /* Custom classes */
@@ -359,4 +370,18 @@ a:focus {
 svg {
   max-height: 100%;
   width: auto;
+}
+.profile-mini {
+  display: flex;
+  align-items: center; /* 垂直方向 */
+}
+/* .profile-mini img {
+  vertical-align: middle;
+} */
+.profile-mini figure {
+  width: 4%;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
