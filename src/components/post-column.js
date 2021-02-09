@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const PostColumnTemplate = ({ node }) => {
   //   const { node } = data.allMarkdownRemark.edges
   return (
-    <li key={node.fields.slug}>
+    <li class="post-list" key={node.fields.slug}>
       <article
         className="post-list-item"
         itemScope

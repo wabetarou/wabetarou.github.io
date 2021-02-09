@@ -184,6 +184,10 @@ ol li {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
+.post-list {
+  margin-left: 0;
+}
+
 li > p {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
