@@ -11,13 +11,13 @@ const Tags = ({ pageContext, data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
-
+  // const tagHeader = `${totalCount} post${
+  //   totalCount === 1 ? "" : "s"
+  // } tagged with "${tag}"`
+  const tagHeader = `"${tag}" : ${totalCount}件`
   return (
     <Layout location={location} title={siteTitle}>
-      <h1>{tagHeader}</h1>
+      <h2>{tagHeader}</h2>
       <ol style={{ listStyle: `none` }}>
         {edges.map(({ node }) => {
           return <PostColumn node={node} />

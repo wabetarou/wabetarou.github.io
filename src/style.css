@@ -90,6 +90,7 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+  color: #7d8592;
 }
 
 hr {
@@ -168,7 +169,7 @@ p {
   line-height: var(--lineHeight-relaxed);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
   padding: var(--spacing-0);
 }
 
@@ -356,6 +357,7 @@ small a {
 .tag-list {
   display: flex;
   height: var(--fontSize-1);
+  padding-bottom: 30px;
 }
 .tag {
   display: flex;

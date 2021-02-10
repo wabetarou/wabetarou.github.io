@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Image from "../components/image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -25,21 +26,32 @@ const BlogPostTemplate = ({ data, location }) => {
           <div className="tag-list">
             {post.frontmatter.tag?.map(tag => {
               return (
-                <div className="tag">
-                  <small>
+                <small>
+                  <div className="tag">
                     <Link to={`/tags/${tag}/`}>{tag}</Link>
-                  </small>
-                </div>
+                  </div>
+                </small>
               )
             })}
           </div>
+          <small className="profile-mini">
+            <figure>
+              <Image
+                filename={"profile-pic-" + post.frontmatter.author + ".jpg"}
+                style={{
+                  borderRadius: `50%`,
+                  height: `100%`,
+                }}
+              />
+            </figure>
+            {post.frontmatter.author}
+          </small>
         </header>
         <hr />
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <footer>by {post.frontmatter.author}</footer>
       </article>
       <nav className="blog-post-nav">
         <ul
