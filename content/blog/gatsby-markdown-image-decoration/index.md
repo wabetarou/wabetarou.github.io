@@ -1,7 +1,7 @@
 ---
 title: gatsbyの特定のimgにCSSを適用
 created: 2021-02-10T11:04
-updated: 2021-02-10T14:51
+updated: 2021-02-10T20:02
 author: nozzle
 description: CSSの部分文字セレクタを使って、Markdownの特定の画像を装飾する
 tag: [css]
@@ -43,7 +43,7 @@ CSS の部分文字セレクタを使って alt 属性の部分一致を使う�
 src/style.css に、alt 属性に`--reverse`が含まれると反転する CSS を書く。  
 img と[]の間に空白があると失敗します。
 
-```css
+```css:title=src/style.css
 /* alt属性に--reverseを含むと左右反転する */
 img[alt*="--reverse"] {
   transform: scale(-1, 1);
