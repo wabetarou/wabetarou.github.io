@@ -15,7 +15,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       {
         postsRemark: allMarkdownRemark(
           sort: { fields: [frontmatter___created], order: ASC }
-          limit: 1000
+          limit: 10000
         ) {
           edges {
             node {
@@ -116,8 +116,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       name: String
       summary: String
       social: Social
+      image: String
     }
 
+    type Strings {
+      val: [String]
+    }
+    
     type Social {
       github: String
     }
@@ -133,11 +138,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       author: String
-      tag: [String]
+      tag: Strings
     }
 
     type Fields {
       slug: String
     }
+
   `)
 }
