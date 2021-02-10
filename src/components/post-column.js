@@ -21,11 +21,11 @@ const PostColumnTemplate = ({ node }) => {
           <div className="tag-list">
             {node.frontmatter.tag?.map(tag => {
               return (
-                <div className="tag">
-                  <small>
+                <small>
+                  <div className="tag">
                     <Link to={`/tags/${tag}/`}>{tag}</Link>
-                  </small>
-                </div>
+                  </div>
+                </small>
               )
             })}
           </div>
