@@ -364,9 +364,10 @@ small a {
   background-color: #eeeeee;
   border-radius: 5px;
   padding: 0 5px;
-  /* font-size:var(--f6); */
   margin-right: 5px;
+  font-size: var(--fontSize-1);
 }
+
 svg {
   max-height: 100%;
   width: auto;
@@ -385,6 +386,20 @@ svg {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-img {
+
+/* 記事別CSS */
+/* arknights_logo */
+img[alt*="--arknights-logo"] {
   padding: 10px;
+}
+/* gatsby-markdown-image-decoration */
+img[alt*="--reverse"] {
+  transform: scale(-1, 1);
+}
+img[alt*="--my-padding"] {
+  padding: 10% 25%;
+}
+img[alt*="--my-margin"] {
+  /* width: 50% !important; */
+  margin: 15% !important;
 }

@@ -1,7 +1,7 @@
 ---
 title: gitのブランチ名をPowerShellで表示する
 created: 2021-02-05T18:36
-updated: 2021-02-07T16:50
+updated: 2021-02-10T10:40
 description: posh-gitを使ってPowerShellでブランチ名を表示する操作の備忘録
 author: nozzle
 tag: [git, github, powershell, windows]
@@ -93,7 +93,7 @@ git push -u origin master   # プッシュ先をoriginのmasterブランチ
 
 表示がこうなる。  
 ≡ はローカルブランチとリモートブランチが同一であることを表している。
-![git_status_display_04.png](git_status_display_04.png)
+![git_status_display_04.png -reverse](git_status_display_04.png)
 
 ローカルブランチで新しくコミットがあると、↑+数字で何コミット進んでいるかが表示される。
 ![git_status_display_05.png](git_status_display_05.png)
