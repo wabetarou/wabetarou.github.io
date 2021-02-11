@@ -1,9 +1,9 @@
 ---
 title: gatsbyのimageについて 
 created: 2021-02-09 23:30
-updated: 2021-02-10 00:48
+updated: 2021-02-10 21:58
 description: デフォルトの画像タグを変更する
-author: konnyaku
+author: [konnyaku]
 tag: [gatsby, computer]
 ---
 

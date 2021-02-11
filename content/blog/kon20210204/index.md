@@ -1,10 +1,10 @@
 ---
 title: 日記
 created: 2021-02-04 13:44
-updated: 2021-02-04 16:10
+updated: 2021-02-10 21:56
 description: 自己分析も兼ねて自分の幸せについて
 tag: [日記,哲学,自己分析]
-author: konnyaku
+author: [konnyaku]
 ---
 最後の方支離滅裂になってます。
 

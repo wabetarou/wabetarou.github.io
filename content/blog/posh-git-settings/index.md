@@ -1,9 +1,9 @@
 ---
 title: gitのブランチ名をPowerShellで表示する
 created: 2021-02-05T18:36
-updated: 2021-02-10T10:40
+updated: 2021-02-10 21:58
 description: posh-gitを使ってPowerShellでブランチ名を表示する操作の備忘録
-author: nozzle
+author: [nozzle]
 tag: [git, github, powershell, windows]
 ---
 

@@ -52,6 +52,10 @@ const BlogPostTemplate = ({ data, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        <footer>
+          by 
+          {typeof(post.frontmatter.author)}
+        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul

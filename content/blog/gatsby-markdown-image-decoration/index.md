@@ -1,8 +1,8 @@
 ---
 title: gatsbyの特定のimgにCSSを適用
 created: 2021-02-10T11:04
-updated: 2021-02-10T20:02
-author: nozzle
+updated: 2021-02-11 21:22
+author: [nozzle]
 description: CSSの部分文字セレクタを使って、Markdownの特定の画像を装飾する
 tag: [css]
 ---
