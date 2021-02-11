@@ -1,9 +1,9 @@
 ---
 title: gatsby環境設定
 created: 2021-01-31T14:52
-updated: 2021-02-07T16:50
+updated: 2021-02-10 21:57
 description: WindowsでNodeとGatsbyを導入し、Github Pagesで公開するまでの備忘録です
-author: nozzle
+author: [nozzle]
 tag: [gatsby, windows, node]
 ---
 

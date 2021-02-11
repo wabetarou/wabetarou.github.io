@@ -44,7 +44,7 @@ module.exports = {
             options: {
               maxWidth: 630,
               backgroundColor: `none`,
-              wrapperStyle: {},
+              wrapperStyle: `overflow: visible`,
             },
           },
           {

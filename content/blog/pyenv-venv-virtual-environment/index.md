@@ -1,9 +1,9 @@
 ---
 title: pyenvとvenvで仮想環境構築 ラズパイ編
 created: 2021-02-03T00:05
-updated: 2021-02-07T16:50
+updated: 2021-02-10 21:58
 tag: [python, raspberrypi]
-author: nozzle
+author: [nozzle]
 description: ラズパイでpythonの仮想環境を作ったときのメモ
 ---
 

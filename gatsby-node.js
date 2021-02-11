@@ -118,10 +118,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       social: Social
       image: String
     }
-
-    type Strings {
-      val: [String]
-    }
     
     type Social {
       github: String
@@ -135,10 +131,10 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       created: Date @dateformat
       updated: Date @dateformat
-      title: String
+      title: String!
       description: String
-      author: String
-      tag: Strings
+      author: [String]
+      tag: [String]
     }
 
     type Fields {

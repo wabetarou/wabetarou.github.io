@@ -1,9 +1,9 @@
 ---
 title: アークナイツ周回の自動化(Mac,C++)
 created: 2021-02-04 19:29
-updated: 2021-02-08 20:00
+updated: 2021-02-10 21:59
 description: C++,openCVを使って自動化
-author: konnyaku
+author: [konnyaku]
 tag: [game,arknights,computer,memo]
 ---
 

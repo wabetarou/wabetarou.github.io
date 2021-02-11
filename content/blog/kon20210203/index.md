@@ -1,10 +1,10 @@
 ---
 title: 日記
 created: 2021-02-03 20:57
-updated: 2021-02-03 22:59
+updated: 2021-02-10 21:58
 description: シャワー浴びてる間に考えたこと
 tag: [日記,哲学]
-author: konnyaku
+author: [konnyaku]
 ---
 ### 自分はなぜ生きるのか
 今日シャワーを浴びている間に自分はなぜ生きるのだろうかと考えた。
