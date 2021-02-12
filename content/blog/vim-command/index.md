@@ -1,9 +1,9 @@
 ---
 title: Vimのコマンド
 created: 2021-02-03 12:46
-updated: 2021-02-07T16:50
+updated: 2021-02-10 21:59
 description: Vimコマンドのメモ
-author: konnyaku
+author: [konnyaku]
 tag: [computer, vim, memo]
 ---
 

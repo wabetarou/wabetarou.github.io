@@ -1,9 +1,9 @@
 ---
 title: NARADUKE新機能候補
 created: 2021-01-31T22:54
-updated: 2021-02-07T22:47
+updated: 2021-02-10 18:40
 description: NARADUKEの新機能候補です
-author: nozzle, konnyaku
+author: [nozzle, konnyaku]
 tag:
 ---
 
@@ -16,7 +16,7 @@ tag:
 - ~~筆者名~~ (2/1 k 完了)
 - ~~タグ~~ (2/7 n&k 完了)
 - カテゴリ --- 日記、哲学、メモ
-- frontmatter の属性詳細 (2/2 k 完了)
+- ~~frontmatter の属性詳細~~ (2/2 k 完了)
 
 ### 難しそう
 

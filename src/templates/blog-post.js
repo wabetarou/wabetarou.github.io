@@ -49,9 +49,12 @@ const BlogPostTemplate = ({ data, location }) => {
                   borderRadius: `50%`,
                   height: `100%`,
                 }}
+                fixed={true}
               />
             </figure>
-            {post.frontmatter.author}
+            <div>
+              {post.frontmatter.author}
+            </div>
           </small>
         </header>
         <hr />
@@ -59,6 +62,15 @@ const BlogPostTemplate = ({ data, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        <footer>
+          by 
+          {(post.frontmatter.author.map((name,index)=>{
+            if (index===post.frontmatter.author.length-1){
+              return (" "+name)
+            }
+            return(" "+name+",")
+          }))}
+        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul

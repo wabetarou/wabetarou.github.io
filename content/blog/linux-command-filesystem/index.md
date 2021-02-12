@@ -2,8 +2,8 @@
 title: Linuxのファイルシステムコマンドまとめ
 description: fstab, mount, df, blkid の違い
 created: 2021-02-09T02:06
-updated: 2021-02-09T02:08
-author: nozzle
+updated: 2021-02-10 21:58
+author: [nozzle]
 tag: [linux]
 ---
 

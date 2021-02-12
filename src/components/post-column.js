@@ -5,7 +5,7 @@ import Image from "./image"
 const PostColumnTemplate = ({ node }) => {
   //   const { node } = data.allMarkdownRemark.edges
   return (
-    <li class="post-list" key={node.fields.slug}>
+    <li className="post-list" key={node.fields.slug}>
       <article
         className="post-list-item"
         itemScope
@@ -38,18 +38,24 @@ const PostColumnTemplate = ({ node }) => {
             itemProp="description"
           />
         </section>
-        <small className="profile-mini">
-          <figure>
-            <Image
-              filename={"profile-pic-" + node.frontmatter.author + ".jpg"}
-              style={{
-                borderRadius: `50%`,
-                height: `100%`,
-              }}
-            />
-          </figure>
-          {node.frontmatter.author}
-        </small>
+            {node.frontmatter.author?.map(name => {
+              return(
+                <small className="profile-mini">
+                  <figure>
+                    <Image
+                      filename={"profile-pic-" + name + ".jpg"}
+                      style={{
+                        borderRadius: `50%`,
+                      }}
+                      fixed={true}
+                    />
+                  </figure>
+                  <div>
+                    {name}
+                  </div>
+                </small>
+              )
+            })}
       </article>
       <hr />
     </li>
