@@ -1,7 +1,7 @@
 ---
 title: アークナイツのロゴについて
 created: 2021-02-09 18:42
-updated: 2021-02-12 15:31
+updated: 2021-02-12 22:43
 description: ロゴの由来を調べてまとめる
 author: [konnyaku]
 tag: [game, arknights]
