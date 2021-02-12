@@ -404,6 +404,13 @@ img[alt*="--my-margin"] {
   /* width: 50% !important; */
   margin: 15% !important;
 }
+table .gatsby-resp-image-wrapper {
+  max-height: 150px;
+}
+
+table .gatsby-resp-image-image {
+  object-fit: contain;
+}
 
 .gatsby-code-title {
   background: #d6d1ceb4;
