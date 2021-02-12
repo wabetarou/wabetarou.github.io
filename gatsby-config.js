@@ -68,6 +68,22 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    {
+      resolve: "gatsby-plugin-gitalk",
+      options: {
+        config: {
+          clientID: "837629045eb9da51e9f1",
+          clientSecret: "440e5c460cbe419000933e51bed825a4844851cd",
+          repo: "narazuke.github.io",
+          owner: "narazuke",
+          admin: ["wabetarou", "nozzlex3"],
+          pagerDirection: "last",
+          createIssueManually: true,
+          distractionFreeMode: true,
+          enableHotKey: true,
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

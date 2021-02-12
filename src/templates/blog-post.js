@@ -5,10 +5,17 @@ import Image from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "@suziwen/gitalk/dist/gitalk.css"
+import Gitalk from "gatsby-plugin-gitalk"
+
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  let gitalkConfig = {
+    id: post.id || post.slug,
+    title: post.frontmatter.title,
+  }
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -91,6 +98,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <Gitalk options={gitalkConfig} />
     </Layout>
   )
 }
