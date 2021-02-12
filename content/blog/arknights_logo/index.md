@@ -1,7 +1,7 @@
 ---
 title: アークナイツのロゴについて
 created: 2021-02-09 18:42
-updated: 2021-02-10 21:59
+updated: 2021-02-12 14:17
 description: ロゴの由来を調べてまとめる
 author: [konnyaku]
 tag: [game, arknights]
@@ -17,7 +17,7 @@ tag: [game, arknights]
 |クロージャ　<br> ![](./closure.png)| github <br> ![](./github.png)|
 |ウルサス <br> ![](./ursus.png)| ロシア国章 <br> ![](./russia.png)|
 |ヴィクトリア <br> ![](./victoria.png)|イギリス国章 <br> ![](./uk.png) |
-|使徒 <br> ![](./sito.jpeg)|star of life<br>![](./star_of_life.png)|
+|使徒 <br> ![](./sito.jpeg)|アスクレピオスの杖<br>![](./star_of_life.png)|
 |リンス戦地救助隊 <br>![](./lynx.png)|star of life<br>![](./star_of_life.png)|
 |極東<br>![]()|ヒガシマル醤油<br>![](higasimaru.png)|
 
