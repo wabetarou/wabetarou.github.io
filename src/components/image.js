@@ -17,6 +17,9 @@ const Image = (props) => (
                 fluid(maxWidth: 100) {
                     ...GatsbyImageSharpFluid
                 }
+                fixed(width: 30) {
+                   ...GatsbyImageSharpFixed
+                }
               }
             }
           }
@@ -36,6 +39,16 @@ const Image = (props) => (
       });
       if (!image) { return null; }
       //const imageSizes = image.node.childImageSharp.sizes; ←サイズFIXしたい時
+      if (props.fixed) {
+        return (
+          <Img
+            fixed={image.node.childImageSharp.fixed}
+            alt={props.alt}
+            imgStyle={props.style}
+            className={props.className}
+          />
+        )
+      }
       return (
         /*<Img alt={props.alt} sizes={imageSizes} /> ←サイズFIXしたい時 */
         <Img

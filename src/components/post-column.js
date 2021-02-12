@@ -38,24 +38,24 @@ const PostColumnTemplate = ({ node }) => {
             itemProp="description"
           />
         </section>
-        <small className="profile-mini">
             {node.frontmatter.author?.map(name => {
               return(
-                <div style={{position:`relative`}}>
-                  <div style={{width:`30px`,display:`inline-block`,position:`absolute`}}>
+                <small className="profile-mini">
+                  <figure>
                     <Image
                       filename={"profile-pic-" + name + ".jpg"}
                       style={{
                         borderRadius: `50%`,
-                        height: `auto`,
                       }}
-                      />
+                      fixed={true}
+                    />
+                  </figure>
+                  <div>
+                    {name}
                   </div>
-                  <div style={{position:`relative`,top:`5px`,left:`35px`,marginBottom:`15px`}}>{name}</div>
-                </div>
+                </small>
               )
             })}
-        </small>
       </article>
       <hr />
     </li>
