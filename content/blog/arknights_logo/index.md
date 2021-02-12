@@ -1,7 +1,7 @@
 ---
 title: アークナイツのロゴについて
 created: 2021-02-09 18:42
-updated: 2021-02-12 22:43
+updated: 2021-02-12 22:55
 description: ロゴの由来を調べてまとめる
 author: [konnyaku]
 tag: [game, arknights]
@@ -19,5 +19,5 @@ tag: [game, arknights]
 |ヴィクトリア <br> ![](./Victoria.webp)|イギリス国章 <br> ![](./uk.png) |
 |シラクーザ <br> ![](./Siracusa.webp)| イタリア国章+<br>ヴェネツィアの獅子 <br> ![](./Italy.png)|
 |使徒 <br> ![](./Followers.webp)|アスクレピオスの杖<br>![](./star_of_life.png)|
-|極東<br>![](./Higashi.webp)|家紋<br>![]()|
+|極東<br>![](./Higashi.webp)|家紋<br>|
 
