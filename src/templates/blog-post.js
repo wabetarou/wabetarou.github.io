@@ -7,15 +7,22 @@ import SEO from "../components/seo"
 
 import "@suziwen/gitalk/dist/gitalk.css"
 import Gitalk from "gatsby-plugin-gitalk"
+import { intersection } from "underscore"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  // post.idの最初の6桁を16進数から10進数に変換したもの
+  let idHash = parseInt(post.id.substr(0, 6), 16)
   let gitalkConfig = {
     id: post.id || post.slug,
     title: post.frontmatter.title,
+    number: idHash,
   }
+  console.log(post.id.substr(0, 6))
+  console.log(idHash)
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -52,9 +59,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 fixed={true}
               />
             </figure>
-            <div>
-              {post.frontmatter.author}
-            </div>
+            <div>{post.frontmatter.author}</div>
           </small>
         </header>
         <hr />
@@ -63,13 +68,13 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <footer>
-          by 
-          {(post.frontmatter.author.map((name,index)=>{
-            if (index===post.frontmatter.author.length-1){
-              return (" "+name)
+          by
+          {post.frontmatter.author.map((name, index) => {
+            if (index === post.frontmatter.author.length - 1) {
+              return " " + name
             }
-            return(" "+name+",")
-          }))}
+            return " " + name + ","
+          })}
         </footer>
       </article>
       <nav className="blog-post-nav">
