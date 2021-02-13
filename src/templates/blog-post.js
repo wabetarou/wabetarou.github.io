@@ -7,21 +7,17 @@ import SEO from "../components/seo"
 
 import "@suziwen/gitalk/dist/gitalk.css"
 import Gitalk from "gatsby-plugin-gitalk"
-import { intersection } from "underscore"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
-  // post.idの最初の6桁を16進数から10進数に変換したもの
-  let idHash = parseInt(post.id.substr(0, 6), 16)
   let gitalkConfig = {
-    id: post.id || post.slug,
+    id: post.fields.slug,
     title: post.frontmatter.title,
-    number: idHash,
+    number: post.frontmatter.index,
   }
-  console.log(post.id.substr(0, 6))
-  console.log(idHash)
+
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -112,7 +108,6 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
-    $index: Int
     $id: String!
     $previousPostId: String
     $nextPostId: String
@@ -133,6 +128,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         created(formatString: "Y-M-D ddd")
@@ -140,6 +138,7 @@ export const pageQuery = graphql`
         description
         tag
         author
+        index
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
