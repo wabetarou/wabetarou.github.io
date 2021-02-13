@@ -8,6 +8,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const tagTemplate = path.resolve("src/templates/tags.js")
+  const authorTemplate = path.resolve("src/templates/author.js")
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -31,6 +32,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
         tagsGroup: allMarkdownRemark(limit: 2000) {
           group(field: frontmatter___tag) {
+            fieldValue
+          }
+        }
+        authorsGroup: allMarkdownRemark(limit: 2000) {
+          group(field: frontmatter___author) {
             fieldValue
           }
         }
@@ -77,6 +83,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: tagTemplate,
       context: {
         tag: tag.fieldValue,
+      },
+    })
+  })
+  const authors = result.data.authorsGroup.group
+  authors.forEach(author => {
+    createPage({
+      path: `/author/${_.kebabCase(author.fieldValue)}/`,
+      component: authorTemplate,
+      context: {
+        author: author.fieldValue,
       },
     })
   })
