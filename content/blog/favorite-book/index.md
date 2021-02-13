@@ -1,9 +1,9 @@
 ---
 title: 好きな本
 created: 2021-02-10T21:48
-updated: 2021-02-13T14:46
+updated: 2021-02-13T15:17
 author: [nozzle]
-tags: [book]
+tag: [book]
 description: 増えたら随時更新するかも
 ---
 
