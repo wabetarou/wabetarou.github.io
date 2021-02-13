@@ -15,6 +15,7 @@ const BlogPostTemplate = ({ data, location }) => {
   let gitalkConfig = {
     id: post.id || post.slug,
     title: post.frontmatter.title,
+    number: post.index
   }
   return (
     <Layout location={location} title={siteTitle}>
@@ -107,6 +108,7 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
+    $index: Int
     $id: String!
     $previousPostId: String
     $nextPostId: String
