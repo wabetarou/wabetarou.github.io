@@ -17,6 +17,7 @@ const BlogPostTemplate = ({ data, location }) => {
     title: post.frontmatter.title,
     number: post.index
   }
+  console.log("number:"+gitalkConfig.number)
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
