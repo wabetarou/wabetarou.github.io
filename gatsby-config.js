@@ -1,3 +1,6 @@
+const fs = require("fs")
+const clientSecret = fs.readFileSync("./.clientSecret", "utf8")
+
 module.exports = {
   siteMetadata: {
     title: `NARAZUKE`,
@@ -73,13 +76,13 @@ module.exports = {
       options: {
         config: {
           clientID: "837629045eb9da51e9f1",
-          clientSecret: "440e5c460cbe419000933e51bed825a4844851cd",
+          clientSecret: `${clientSecret}`,
           repo: "narazuke.github.io",
           owner: "narazuke",
           admin: ["wabetarou", "nozzlex3"],
           pagerDirection: "last",
-          createIssueManually: true,
-          distractionFreeMode: true,
+          createIssueManually: false,
+          distractionFreeMode: false,
           enableHotKey: true,
         },
       },
