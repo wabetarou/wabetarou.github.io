@@ -17,12 +17,8 @@ const BlogPostTemplate = ({ data, location }) => {
     title: post.frontmatter.title,
     number: post.frontmatter.index,
   }
-<<<<<<< HEAD
-  console.log(post.fields.slug)
-  console.log(idHash)
-=======
-
->>>>>>> ee16a7675e8954e980bd2ce639513912232683c9
+  // console.log(post.fields.slug)
+  // console.log(idHash)
 
   return (
     <Layout location={location} title={siteTitle}>
