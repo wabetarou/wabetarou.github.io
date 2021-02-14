@@ -27,10 +27,19 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+      <div>
+        <a href="https://narazuke.github.io">
+          こちらのリンク
+        </a>
+        でnozzleと共同でブログを書いてます。<br/>
+        そのうち自分が書いたものをここに表示しています。
+      </div>
+      <br/>
       <Bio />
       <hr />
       <Link to="/tags">All tags</Link>
       <ol style={{ listStyle: `none` }}>
+        {console.log(edges)}
         {edges.map(({ node }) => {
           return <PostColumn node={node} />
         })}
@@ -58,6 +67,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___created], order: DESC }
+      filter: {frontmatter: {author: {in: "konnyaku"}}}
     ) {
       totalCount
       edges {
