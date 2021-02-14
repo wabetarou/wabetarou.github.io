@@ -67,6 +67,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         path: post.node.fields.slug,
         component: blogPost,
         context: {
+          index,
           id: post.node.id,
           previousPostId,
           nextPostId,
@@ -113,7 +114,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 }
 
 exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions
+  const { createTypes, createFieldExtension } = actions
+
+  createFieldExtension({
+    name: 'shout',
+    extend: () => (
+      {
+        resolve(source, args, context, info) {
+          return context.index
+        }
+      }
+    )
+  })
 
   // Explicitly define the siteMetadata {} object
   // This way those will always be defined even if removed from gatsby-config.js
@@ -151,6 +163,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       author: [String]
       tag: [String]
+      index: String @shout
     }
 
     type Fields {

@@ -13,10 +13,10 @@ const BlogPostTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
   let gitalkConfig = {
-    id: post.id || post.slug,
+    id: post.frontmatter.index,
     title: post.frontmatter.title,
-    // number: post.frontmatter.index,
   }
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -53,9 +53,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 fixed={true}
               />
             </figure>
-            <div>
-              {post.frontmatter.author}
-            </div>
+            <div>{post.frontmatter.author}</div>
           </small>
         </header>
         <hr />
@@ -64,13 +62,13 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <footer>
-          by 
-          {(post.frontmatter.author.map((name,index)=>{
-            if (index===post.frontmatter.author.length-1){
-              return (" "+name)
+          by
+          {post.frontmatter.author.map((name, index) => {
+            if (index === post.frontmatter.author.length - 1) {
+              return " " + name
             }
-            return(" "+name+",")
-          }))}
+            return " " + name + ","
+          })}
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -128,6 +126,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         created(formatString: "Y-M-D ddd")
@@ -135,6 +136,7 @@ export const pageQuery = graphql`
         description
         tag
         author
+        index
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

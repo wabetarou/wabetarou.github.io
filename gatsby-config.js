@@ -1,5 +1,4 @@
-const fs = require("fs")
-const clientSecret = fs.readFileSync("./.clientSecret","utf8")
+const secret = require("./secret.json")
 
 module.exports = {
   siteMetadata: {
@@ -68,7 +67,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-189619597-1`,
       },
     },
     {
@@ -76,14 +75,15 @@ module.exports = {
       options: {
         config: {
           clientID: "837629045eb9da51e9f1",
-          clientSecret: `${clientSecret}`,
+          clientSecret: `${secret.clientSecret}`,
           repo: "narazuke.github.io",
           owner: "narazuke",
           admin: ["wabetarou", "nozzlex3"],
-          pagerDirection: "last",
+          pagerDirection: "first",
           createIssueManually: false,
           distractionFreeMode: false,
           enableHotKey: true,
+          proxy: `${secret.proxy}`,
         },
       },
     },
