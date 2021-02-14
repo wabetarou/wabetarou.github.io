@@ -84,6 +84,8 @@ module.exports = {
           createIssueManually: false,
           distractionFreeMode: false,
           enableHotKey: true,
+          proxy:
+            "https://fierce-springs-80306.herokuapp.com/https://github.com/login/oauth/access_token",
         },
       },
     },
