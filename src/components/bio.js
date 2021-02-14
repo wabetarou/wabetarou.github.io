@@ -54,12 +54,12 @@ const Bio = () => {
       )}
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          {/* Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <br/>
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
+          <br/> */}
+          {/* <a href={`https://twitter.com/${social?.twitter || ``}`}>
             Twitter
-          </a>
+          </a> */}
           <br/>
           <a href={`https://github.com/${social?.github || ``}`}>
             Github

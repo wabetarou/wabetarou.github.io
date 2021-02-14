@@ -25,15 +25,35 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
+  let tags = new Set()
+  posts.forEach(post => {
+    post.frontmatter.tags.forEach(tag => tags.add(tag))
+  })
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
+
+      ほとんどこっちでnozzleと共同で書いてます<br/>
+      <a href="https://narazuke.github.io">ならづけ</a><br/>
+      <br/>
+      {/* このページは製作者が日々生きていく中で感じたことや忘れたくないことなどをメモする場所です。 */}
+      <br/>
+      タグ一覧
+      <br/>
+      <div>
+        {Array.from(tags).map(tag => {
+          return(<span>{tag},</span>)
+        })}
+      </div>
       <ol style={{ listStyle: `none` }}>
-        {posts.filter(post => params.get("tag") === null || post.frontmatter.tags.some(tag => tag === params.get("tag"))).map(post => {
+        {posts.filter(post => !post.frontmatter.tags.some(tag => tag === "private") && (params.get("tag") === null || post.frontmatter.tags.some(tag => tag === params.get("tag")))).map(post => {
           const title = post.frontmatter.title || post.fields.slug
+          // const tags = post.frontmatter.tags || "null"
           return (
             <li key={post.fields.slug}>
+              <hr/>
               <article
                 className="post-list-item"
                 itemScope
@@ -80,8 +100,8 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          updated(formatString: "MMMM DD, YYYY")
+          date(formatString: "Y-M-D ddd")
+          updated(formatString: "Y-M-D ddd")
           title
           description
           tags

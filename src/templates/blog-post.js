@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+  // const { previous, next } = data
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -23,12 +23,14 @@ const BlogPostTemplate = ({ data, location }) => {
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
+          {post.frontmatter.tags.map(tag => <span>{tag},</span>)}
         </header>
+        <hr/>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <hr />
+        <hr/>
       </article>
       <nav className="blog-post-nav">
         <ul
@@ -40,7 +42,7 @@ const BlogPostTemplate = ({ data, location }) => {
             padding: 0,
           }}
         >
-          <li>
+          {/* <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
@@ -53,7 +55,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 {next.frontmatter.title} →
               </Link>
             )}
-          </li>
+          </li> */}
         </ul>
       </nav>
     </Layout>
@@ -79,8 +81,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        updated(formatString: "MMMM DD, YYYY")
+        date(formatString: "Y-M-D ddd")
+        updated(formatString: "Y-M-D ddd")
         description
         tags
       }

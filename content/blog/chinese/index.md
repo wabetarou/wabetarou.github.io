@@ -1,15 +1,34 @@
 ---
 title: 中国語
 date: 2021-01-17 17:05:14
-updated: 2021-01-18T00:16
+updated: 2021-01-22T10:36
 description: "中国語についてのメモ"
-tags: ["memo","chinese","language"]
+tags: ["memo","chinese","language","private"]
 name: "chinese"
 ---
+### 目標
 
+7月までにに日常会話が理解可能、単語での会話が可能
+
+2月までに日常会話が可能
+
+どのくらいかわからないからとりあえず設定
+### 勉強の仕方
+
+まず何からやるかわからんからそれを決めて習慣にしたい
+
+ - アークナイツのことは中国語で調べる
+
+ - youtubeは中国語のを見る
+
+ - わからなかったことはすぐ調べる
+
+ - 中国語で日記を書く
 
 
 ### リンクまとめ
+
+[中国語検索に](https://bitex-cn.com)
 
 [5つの原則と7つの実践](https://english-bay.com/blog/TED/how_to_learn_language_in_half_a_year)
 
