@@ -72,4 +72,4 @@ yarn-error.log
 *.ai
 
 # protect clientSecret
-.clientSecret
+secret.json
