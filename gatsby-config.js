@@ -1,5 +1,4 @@
-const fs = require("fs")
-const clientSecret = fs.readFileSync("./.clientSecret", "utf8")
+const secret = require("./secret.json")
 
 module.exports = {
   siteMetadata: {
@@ -76,16 +75,15 @@ module.exports = {
       options: {
         config: {
           clientID: "837629045eb9da51e9f1",
-          clientSecret: `${clientSecret}`,
+          clientSecret: `${secret.clientSecret}`,
           repo: "narazuke.github.io",
           owner: "narazuke",
           admin: ["wabetarou", "nozzlex3"],
-          pagerDirection: "last",
+          pagerDirection: "first",
           createIssueManually: false,
           distractionFreeMode: false,
           enableHotKey: true,
-          proxy:
-            "https://fierce-springs-80306.herokuapp.com/https://github.com/login/oauth/access_token",
+          proxy: `${secret.proxy}`,
         },
       },
     },
