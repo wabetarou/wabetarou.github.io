@@ -15,6 +15,7 @@ const BlogPostTemplate = ({ data, location }) => {
   let gitalkConfig = {
     id: post.id || post.slug,
     title: post.frontmatter.title,
+    // number: post.frontmatter.index,
   }
   return (
     <Layout location={location} title={siteTitle}>
