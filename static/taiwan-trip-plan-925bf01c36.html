@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台湾旅行プラン 2026年9月11日〜15日</title>
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --bg:#ffffff;
+    --soft:#f7f8fa;
+    --accent:#0f766e;
+    --accent-soft:#e6f4f1;
+    --warn:#9a6700;
+    --warn-soft:#fff8e5;
+    --bad:#b42318;
+    --bad-soft:#fef3f2;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic UI","Meiryo",sans-serif;
+    color:var(--ink);
+    background:var(--soft);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px 80px;}
+
+  header{
+    background:linear-gradient(135deg,#0f766e 0%,#155e75 100%);
+    color:#fff;
+    padding:44px 20px 38px;
+    margin-bottom:0;
+  }
+  header .inner{max-width:860px;margin:0 auto;}
+  .eyebrow{
+    font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+    opacity:.8;margin:0 0 10px;font-weight:600;
+  }
+  h1{font-size:30px;line-height:1.35;margin:0 0 6px;font-weight:700;letter-spacing:-.01em;}
+  .sub{font-size:15px;opacity:.9;margin:0;}
+
+  .hero-stats{
+    display:flex;flex-wrap:wrap;gap:1px;
+    background:rgba(255,255,255,.22);
+    border-radius:10px;overflow:hidden;margin-top:26px;
+  }
+  .hero-stats div{
+    flex:1 1 140px;background:rgba(255,255,255,.10);
+    padding:14px 16px;backdrop-filter:blur(2px);
+  }
+  .hero-stats .k{font-size:11px;opacity:.85;letter-spacing:.06em;margin-bottom:2px;}
+  .hero-stats .v{font-size:20px;font-weight:700;letter-spacing:-.01em;}
+  .hero-stats .v small{font-size:12px;font-weight:500;opacity:.85;margin-left:2px;}
+
+  section{
+    background:var(--bg);border:1px solid var(--line);border-radius:12px;
+    padding:26px 28px;margin-top:20px;
+  }
+  section:first-of-type{margin-top:24px;}
+  h2{
+    font-size:17px;margin:0 0 4px;font-weight:700;letter-spacing:-.01em;
+    display:flex;align-items:center;gap:9px;
+  }
+  h2 .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none;}
+  .lede{color:var(--muted);font-size:13.5px;margin:0 0 20px;}
+
+  /* flight cards */
+  .flight{
+    border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:12px;
+    background:#fff;
+  }
+  .flight:last-child{margin-bottom:0;}
+  .flight-head{
+    display:flex;justify-content:space-between;align-items:baseline;
+    gap:12px;flex-wrap:wrap;margin-bottom:14px;
+  }
+  .tag{
+    font-size:11px;font-weight:700;letter-spacing:.08em;
+    background:var(--accent-soft);color:var(--accent);
+    padding:4px 9px;border-radius:5px;
+  }
+  .flight-date{font-size:14px;font-weight:600;}
+  .flight-no{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;}
+  .leg{display:flex;align-items:center;gap:14px;}
+  .pt{text-align:center;min-width:74px;}
+  .pt .time{font-size:24px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.2;}
+  .pt .code{font-size:12px;color:var(--muted);font-weight:600;}
+  .pt .apt{font-size:11px;color:var(--muted);}
+  .bar{flex:1;text-align:center;position:relative;padding:0 4px;}
+  .bar .dur{font-size:11px;color:var(--muted);margin-bottom:3px;}
+  .bar .line{height:2px;background:var(--line);position:relative;border-radius:2px;}
+  .bar .line::after{
+    content:"";position:absolute;right:-1px;top:-3px;
+    border-left:7px solid var(--accent);border-top:4px solid transparent;border-bottom:4px solid transparent;
+  }
+  .bar .nonstop{font-size:11px;color:var(--accent);font-weight:600;margin-top:3px;}
+
+  /* tables */
+  table{width:100%;border-collapse:collapse;font-size:14px;}
+  th,td{padding:11px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;}
+  th{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.03em;}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  tr.total td{border-bottom:none;border-top:2px solid var(--ink);font-weight:700;padding-top:13px;font-size:15px;}
+  .note{font-size:12px;color:var(--muted);}
+
+  /* itinerary */
+  .day{display:flex;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);}
+  .day:last-child{border-bottom:none;padding-bottom:0;}
+  .day-label{flex:none;width:96px;}
+  .day-label .d{font-size:15px;font-weight:700;letter-spacing:-.01em;}
+  .day-label .w{font-size:11px;color:var(--muted);}
+  .day-body{flex:1;font-size:14px;}
+  .day-body .hl{font-weight:600;}
+  .chip{
+    display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;
+    margin-bottom:5px;
+  }
+  .chip.full{background:var(--accent-soft);color:var(--accent);}
+  .chip.half{background:#eef2f7;color:#475569;}
+
+  /* callouts */
+  .callout{
+    border-radius:9px;padding:15px 18px;font-size:13.5px;margin-top:14px;
+    border:1px solid transparent;
+  }
+  .callout.warn{background:var(--warn-soft);border-color:#f3e2b3;color:#6b4d00;}
+  .callout.bad{background:var(--bad-soft);border-color:#fbd5d0;color:#7a1c14;}
+  .callout b{font-weight:700;}
+  .callout ul{margin:8px 0 0;padding-left:19px;}
+  .callout li{margin-bottom:4px;}
+
+  ul.plain{margin:0;padding-left:19px;font-size:14px;}
+  ul.plain li{margin-bottom:7px;}
+
+  footer{
+    text-align:center;color:var(--muted);font-size:12px;
+    margin-top:28px;line-height:1.9;
+  }
+  @media (max-width:600px){
+    h1{font-size:23px;}
+    section{padding:20px 18px;}
+    .pt .time{font-size:20px;}
+    .pt{min-width:60px;}
+    .day{flex-direction:column;gap:4px;}
+    .day-label{width:auto;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="eyebrow">Taipei · 4 nights 5 days</p>
+    <h1>台湾（台北）旅行プラン</h1>
+    <p class="sub">2026年9月11日（金） 〜 9月15日（火）／スクート直行・4泊5日・大人1名</p>
+    <div class="hero-stats">
+      <div><div class="k">航空券（往復）</div><div class="v">¥42,620</div></div>
+      <div><div class="k">総額めやす</div><div class="v">¥76,000<small>前後</small></div></div>
+      <div><div class="k">フル行動日</div><div class="v">3日<small>＋前後半日</small></div></div>
+      <div><div class="k">平日に使う休み</div><div class="v">3日<small>金・月・火</small></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2><span class="dot"></span>フライト</h2>
+    <p class="lede">往復ともスクートの直行便。深夜発着を一切使わないので、空港アクセスはMRTだけで完結します。</p>
+
+    <div class="flight">
+      <div class="flight-head">
+        <div>
+          <span class="tag">往路</span>
+          <span class="flight-date" style="margin-left:8px;">9月11日（金）</span>
+        </div>
+        <div class="flight-no">スクート TR867 ／ Boeing 787 ／ エコノミー</div>
+      </div>
+      <div class="leg">
+        <div class="pt">
+          <div class="time">12:30</div>
+          <div class="code">NRT</div>
+          <div class="apt">成田国際空港</div>
+        </div>
+        <div class="bar">
+          <div class="dur">3時間40分</div>
+          <div class="line"></div>
+          <div class="nonstop">直行便</div>
+        </div>
+        <div class="pt">
+          <div class="time">15:10</div>
+          <div class="code">TPE</div>
+          <div class="apt">台湾桃園国際空港</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flight">
+      <div class="flight-head">
+        <div>
+          <span class="tag">復路</span>
+          <span class="flight-date" style="margin-left:8px;">9月15日（火）</span>
+        </div>
+        <div class="flight-no">スクート TR874 ／ Boeing 787 ／ エコノミー</div>
+      </div>
+      <div class="leg">
+        <div class="pt">
+          <div class="time">15:30</div>
+          <div class="code">TPE</div>
+          <div class="apt">台湾桃園国際空港</div>
+        </div>
+        <div class="bar">
+          <div class="dur">3時間30分</div>
+          <div class="line"></div>
+          <div class="nonstop">直行便</div>
+        </div>
+        <div class="pt">
+          <div class="time">20:00</div>
+          <div class="code">NRT</div>
+          <div class="apt">成田国際空港</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout warn">
+      <b>手荷物ルール（スクート）</b>
+      <ul>
+        <li>機内持ち込みは <b>合計10kg・2個まで無料</b>（メイン 54×38×23cm ＋ 身の回り品 40×30×10cm）</li>
+        <li>受託手荷物は<b>別料金</b>。オンラインで事前購入すると安く、最大40kgまで追加可能</li>
+        <li>荷物を預けるなら往復で <b>+¥6,000前後</b> を総額に加算してください</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>費用の内訳</h2>
+    <p class="lede">大人1名・ホテルは3つ星クラスのシングル利用を想定した目安です。</p>
+    <table>
+      <thead>
+        <tr><th>項目</th><th>内容</th><th class="num">金額</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>航空券</td>
+          <td>スクート往復・直行<span class="note"><br>Skyscanner最安値。Google フライト経由だと ¥43,621</span></td>
+          <td class="num">¥42,620</td>
+        </tr>
+        <tr>
+          <td>ホテル</td>
+          <td>4泊 × ¥8,000<span class="note"><br>¥6,000/泊の宿にすれば ¥24,000 まで圧縮可</span></td>
+          <td class="num">¥32,000</td>
+        </tr>
+        <tr>
+          <td>空港アクセス</td>
+          <td>桃園空港MRT 往復 300元<span class="note"><br>1元 ≈ 4.8円</span></td>
+          <td class="num">¥1,500</td>
+        </tr>
+        <tr class="total">
+          <td colspan="2">合計（航空券＋宿＋空港移動）</td>
+          <td class="num">約 ¥76,000</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note" style="margin-top:14px;">※ 現地の食費・観光費・通信費は別途。台北は1日 ¥4,000〜6,000 も見ておけば十分に飲食・移動できます。</p>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>台北のホテル候補（1泊あたり・実勢）</h2>
+    <p class="lede">9/11〜15と9月末で価格差はほぼありませんでした。中秋節（9/25〜28の4連休）を外しているためです。</p>
+    <table>
+      <thead>
+        <tr><th>ホテル</th><th>評価</th><th class="num">1泊</th><th class="num">4泊</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>CU ホテル</td><td>3つ星 ★4.2</td><td class="num">¥7,514</td><td class="num">¥30,056</td></tr>
+        <tr><td>怡品商旅 Eastin Taipei</td><td>★4.1</td><td class="num">¥9,102</td><td class="num">¥36,408</td></tr>
+        <tr><td>ファースト ホテル</td><td>3つ星 ★3.6</td><td class="num">¥9,892</td><td class="num">¥39,568</td></tr>
+        <tr><td>ホテルサンルート台北</td><td>3つ星 ★4.2</td><td class="num">¥10,466</td><td class="num">¥41,864</td></tr>
+        <tr><td>シーザーメトロ台北</td><td>★4.0</td><td class="num">¥13,077</td><td class="num">¥52,308</td></tr>
+      </tbody>
+    </table>
+    <p class="note" style="margin-top:14px;">地図上には ¥5,000〜8,000台の宿も多数あります。MRT駅から徒歩5分以内を条件にすると探しやすいです。</p>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>現地で使える時間</h2>
+    <p class="lede">土・日・月が丸ごと空くので、遠出（九份・十分・淡水など）も無理なく組み込めます。</p>
+
+    <div class="day">
+      <div class="day-label"><div class="d">9/11</div><div class="w">金曜</div></div>
+      <div class="day-body">
+        <span class="chip half">夕方から</span><br>
+        成田10:30ごろ着 → 12:30発 → <span class="hl">15:10着</span>。入国とMRTで <span class="hl">16:30には台北市内</span>。
+        チェックイン後、夜市（寧夏／饒河街）で初日の夜を消化できます。
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-label"><div class="d">9/12</div><div class="w">土曜</div></div>
+      <div class="day-body">
+        <span class="chip full">フル1日目</span><br>
+        朝から晩まで自由。台北市内観光（故宮・中正紀念堂・西門町・101）向き。
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-label"><div class="d">9/13</div><div class="w">日曜</div></div>
+      <div class="day-body">
+        <span class="chip full">フル2日目</span><br>
+        朝から晩まで自由。<span class="hl">九份＋十分の日帰り</span>など、丸1日必要な遠出に最適。
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-label"><div class="d">9/14</div><div class="w">月曜</div></div>
+      <div class="day-body">
+        <span class="chip full">フル3日目</span><br>
+        朝から晩まで自由。平日なので観光地が空いています。北投温泉や淡水も候補。
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-label"><div class="d">9/15</div><div class="w">火曜</div></div>
+      <div class="day-body">
+        <span class="chip half">午前まで</span><br>
+        <span class="hl">午前中は自由行動</span>（朝食＋お土産）。12:00にホテル発 → 13:30空港 → 15:30発 → <span class="hl">20:00成田着</span>。
+        当日中に帰宅できます。
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>空港 ⇔ 台北市内</h2>
+    <ul class="plain">
+      <li><b>桃園空港MRT 直達車</b>で台北駅まで <b>約36分・150元（約¥720）</b></li>
+      <li>今回は15:10着・15:30発なので、<b>終電も始発も気にする必要なし</b></li>
+      <li>参考：MRT終電は空港発 直達車23:00／普通車23:38。始発は空港発5:55</li>
+      <li>深夜便を選んだ場合は國光客運バス1819（24時間運行・深夜164元）かタクシーになります</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>なぜこの日程なのか</h2>
+    <table>
+      <thead>
+        <tr><th>日程</th><th>航空券</th><th>実際に遊べる時間</th><th>備考</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>9/11 → 9/15</b><br><span class="note">本命</span></td>
+          <td class="num">¥42,620</td>
+          <td><b>フル3日＋前後半日</b></td>
+          <td>深夜移動なし。休みは金・月・火の3日</td>
+        </tr>
+        <tr>
+          <td>9/29 → 10/3</td>
+          <td class="num">¥40,620</td>
+          <td>フル3日＋前後半日</td>
+          <td>¥2,000安いが平日を4日消費</td>
+        </tr>
+        <tr>
+          <td>9/29 → 10/2</td>
+          <td class="num">¥37,613</td>
+          <td>約2.5日</td>
+          <td>1泊減で節約。ただし3日に届かない</td>
+        </tr>
+        <tr>
+          <td>9/11 → 9/14<br><span class="note">最安便</span></td>
+          <td class="num">¥33,183</td>
+          <td>実質2日のみ</td>
+          <td>深夜1:00着＋早朝6:45発。宿1泊が無駄に</td>
+        </tr>
+        <tr>
+          <td>9/19 → 9/22</td>
+          <td class="num">¥83,787</td>
+          <td>—</td>
+          <td>シルバーウィーク。1週間ずらすだけで半額</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>予約前に確認すること</h2>
+    <div class="callout bad">
+      <b>台風シーズンです</b>
+      <ul>
+        <li>台湾は6〜10月が台風のピーク。上陸は年3〜4個ですが欠航・遅延の可能性があります</li>
+        <li>帰国翌日（9/16）に重要な予定を入れないでおくと安心です</li>
+        <li>心配なら変更可能な運賃か、航空機遅延をカバーする旅行保険を検討</li>
+      </ul>
+    </div>
+    <div class="callout warn">
+      <b>価格は動きます</b>
+      <ul>
+        <li>この金額は<b>2026年8月16日時点</b>の調査結果です</li>
+        <li>出発まで1か月を切っているため、LCC運賃は今後上がりやすい局面です</li>
+        <li>日程が固まっているなら早めに押さえるのが安全です</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    調査日 2026年8月16日／出典：Skyscanner・Google フライト・Google ホテル・スクート公式<br>
+    表示価格は大人1名・エコノミー・往復総額。実際の購入時点で変動します。
+  </footer>
+
+</div>
+</body>
+</html>
